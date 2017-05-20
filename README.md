@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This app is my portfilo. it will display all my hard work for the pas couple 
+of weeks. I am a mechanical engineer, who is in the mist of becoming a full
+stack engineer. I want to have my own startup that focuses on sustainability. 
+My goal is to go to SF in the next few months.
