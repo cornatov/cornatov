@@ -1553,3 +1553,1376 @@ Processing by StaticPagesController#about as HTML
 Completed 200 OK in 30ms (Views: 28.6ms)
 
 
+Started GET "/static_pages/contact" for 23.119.230.30 at 2017-05-23 03:06:12 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 22.2ms)
+
+
+Started GET "/static_pages/about" for 23.119.230.30 at 2017-05-23 03:06:13 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 38ms (Views: 36.5ms)
+
+
+Started GET "/static_pages/about" for 23.119.230.30 at 2017-05-23 03:13:05 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 31ms (Views: 29.8ms)
+
+
+Started GET "/static_pages/contact" for 23.119.230.30 at 2017-05-23 03:13:07 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 30ms (Views: 28.9ms)
+
+
+Started GET "/" for 23.119.230.30 at 2017-05-23 03:13:09 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 26ms (Views: 25.1ms)
+
+
+Started GET "/" for 23.119.230.30 at 2017-05-23 03:17:45 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 21ms (Views: 19.8ms)
+
+
+Started GET "/static_pages/about" for 23.119.230.30 at 2017-05-23 03:17:47 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 18.0ms)
+
+
+Started GET "/static_pages/contact" for 23.119.230.30 at 2017-05-23 03:17:48 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 19.0ms)
+
+
+Started GET "/" for 23.119.230.30 at 2017-05-23 03:17:52 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 34ms (Views: 31.9ms)
+
+
+Started GET "/" for 54.209.231.248 at 2017-05-23 03:18:24 +0000
+Cannot render console from 54.209.231.248! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#index as */*
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 27ms (Views: 22.2ms)
+
+
+Started GET "/" for 23.119.230.30 at 2017-05-23 03:19:00 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 20ms (Views: 19.2ms)
+
+
+Started GET "/static_pages/about" for 23.119.230.30 at 2017-05-23 03:19:00 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 19.0ms)
+
+
+Started GET "/static_pages/contact" for 23.119.230.30 at 2017-05-23 03:19:01 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 19ms (Views: 18.5ms)
+
+
+Started GET "/" for 23.119.230.30 at 2017-05-23 03:19:34 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 25ms (Views: 23.0ms)
+
+
+Started GET "/static_pages/about" for 23.119.230.30 at 2017-05-23 03:19:36 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 22.6ms)
+
+
+Started GET "/" for 76.90.105.209 at 2017-05-23 03:22:15 +0000
+Cannot render console from 76.90.105.209! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 34ms (Views: 32.3ms)
+
+
+Started GET "/" for 23.119.230.30 at 2017-05-24 00:45:06 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (268.2ms)
+Completed 200 OK in 310ms (Views: 299.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for 23.119.230.30 at 2017-05-24 00:46:26 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 26ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/products/new" for 23.119.230.30 at 2017-05-24 01:25:07 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages/products/new"):
+  
+actionpack (5.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.1) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/products/new" for 23.119.230.30 at 2017-05-24 01:25:18 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (23.4ms) [cache miss]
+  Rendered products/new.html.erb within layouts/application (26.5ms)
+Completed 200 OK in 74ms (Views: 57.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/products/new" for 23.119.230.30 at 2017-05-24 01:32:48 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (2.7ms) [cache miss]
+  Rendered products/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 165ms (Views: 163.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/new" for 23.119.230.30 at 2017-05-24 01:32:54 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (4.3ms) [cache miss]
+  Rendered products/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 39ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-05-24 01:33:00 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 36ms (Views: 32.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products/" for 23.119.230.30 at 2017-05-24 01:33:53 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 51ms (Views: 48.7ms | ActiveRecord: 0.3ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "console-generated product"], ["description", "I created this product without using the HTML form!"], ["image_url", "http://media.istockphoto.com/photos/kitten-on-a-white-background-picture-id511458158?k=6&m=511458158&s=170667a&w=0&h=YS27-I0nj5x89iDRUZ2YxE77hEghPb0HNCWwPCrMmn8="], ["created_at", "2017-05-24 01:37:29.164425"], ["updated_at", "2017-05-24 01:37:29.164425"]]
+  [1m[35m (25.4ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/products/" for 23.119.230.30 at 2017-05-24 01:37:39 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 58ms (Views: 55.4ms | ActiveRecord: 0.4ms)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.6ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "seed-generated product"], ["description", "I also created this product without using the HTML form!"], ["created_at", "2017-05-24 01:42:04.804871"], ["updated_at", "2017-05-24 01:42:04.804871"]]
+  [1m[35m (14.1ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/products/" for 23.119.230.30 at 2017-05-24 01:42:11 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 68ms (Views: 66.2ms | ActiveRecord: 0.3ms)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddColorToProducts (20170524014554)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "products" ADD "color" varchar[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170524014554"]]
+  [1m[35m (13.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/products/" for 23.119.230.30 at 2017-05-24 02:19:20 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (104.4ms)
+Completed 200 OK in 165ms (Views: 154.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/products/edit" for 23.119.230.30 at 2017-05-24 02:19:29 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"edit"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 5ms (ActiveRecord: 0.3ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'=edit):
+  
+app/controllers/products_controller.rb:67:in `set_product'
+Started GET "/products/save" for 23.119.230.30 at 2017-05-24 02:19:35 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"save"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'=save):
+  
+app/controllers/products_controller.rb:67:in `set_product'
+Started GET "/products/sale" for 23.119.230.30 at 2017-05-24 02:19:41 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"sale"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'=sale):
+  
+app/controllers/products_controller.rb:67:in `set_product'
+Started GET "/products/new" for 23.119.230.30 at 2017-05-24 02:20:41 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (254.2ms)
+  Rendered products/new.html.erb within layouts/application (256.0ms)
+Completed 500 Internal Server Error in 262ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007f0a5c113ab0>:0x007f0a5c2518f0>):
+    27:   </div>
+    28:     
+    29:   <div class="field">
+    30:     <%= f.label :color %><br>
+    31:     <%= f.text_field :color %>
+    32:   </div>
+    33: 
+  
+app/views/products/_form.html.erb:30:in `block in _app_views_products__form_html_erb__911130196059531955_69841381502100'
+app/views/products/_form.html.erb:1:in `_app_views_products__form_html_erb__911130196059531955_69841381502100'
+app/views/products/new.html.erb:3:in `_app_views_products_new_html_erb__1246938441727292494_69841236169060'
+Started GET "/products/new" for 23.119.230.30 at 2017-05-24 02:20:41 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (207.8ms)
+  Rendered products/new.html.erb within layouts/application (209.2ms)
+Completed 500 Internal Server Error in 215ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007f0a5c113ab0>:0x007f0a6848fe08>):
+    27:   </div>
+    28:     
+    29:   <div class="field">
+    30:     <%= f.label :color %><br>
+    31:     <%= f.text_field :color %>
+    32:   </div>
+    33: 
+  
+app/views/products/_form.html.erb:30:in `block in _app_views_products__form_html_erb__911130196059531955_69841389901540'
+app/views/products/_form.html.erb:1:in `_app_views_products__form_html_erb__911130196059531955_69841389901540'
+app/views/products/new.html.erb:3:in `_app_views_products_new_html_erb__1246938441727292494_69841235035440'
+Started GET "/products/new" for 23.119.230.30 at 2017-05-24 02:20:43 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (275.0ms)
+  Rendered products/new.html.erb within layouts/application (276.2ms)
+Completed 500 Internal Server Error in 280ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007f0a5c113ab0>:0x007f0a600d6760>):
+    27:   </div>
+    28:     
+    29:   <div class="field">
+    30:     <%= f.label :color %><br>
+    31:     <%= f.text_field :color %>
+    32:   </div>
+    33: 
+  
+app/views/products/_form.html.erb:30:in `block in _app_views_products__form_html_erb__911130196059531955_69841269035080'
+app/views/products/_form.html.erb:1:in `_app_views_products__form_html_erb__911130196059531955_69841269035080'
+app/views/products/new.html.erb:3:in `_app_views_products_new_html_erb__1246938441727292494_69841268947100'
+Started GET "/products/new" for 23.119.230.30 at 2017-05-24 02:20:44 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (257.3ms)
+  Rendered products/new.html.erb within layouts/application (258.7ms)
+Completed 500 Internal Server Error in 262ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007f0a5c113ab0>:0x007f0a68341178>):
+    27:   </div>
+    28:     
+    29:   <div class="field">
+    30:     <%= f.label :color %><br>
+    31:     <%= f.text_field :color %>
+    32:   </div>
+    33: 
+  
+app/views/products/_form.html.erb:30:in `block in _app_views_products__form_html_erb__911130196059531955_69841337230760'
+app/views/products/_form.html.erb:1:in `_app_views_products__form_html_erb__911130196059531955_69841337230760'
+app/views/products/new.html.erb:3:in `_app_views_products_new_html_erb__1246938441727292494_69841337322920'
+Started GET "/products/new" for 23.119.230.30 at 2017-05-24 02:20:44 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (274.9ms)
+  Rendered products/new.html.erb within layouts/application (277.0ms)
+Completed 500 Internal Server Error in 282ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007f0a5c113ab0>:0x007f0a60153fa8>):
+    27:   </div>
+    28:     
+    29:   <div class="field">
+    30:     <%= f.label :color %><br>
+    31:     <%= f.text_field :color %>
+    32:   </div>
+    33: 
+  
+app/views/products/_form.html.erb:30:in `block in _app_views_products__form_html_erb__911130196059531955_69841269480180'
+app/views/products/_form.html.erb:1:in `_app_views_products__form_html_erb__911130196059531955_69841269480180'
+app/views/products/new.html.erb:3:in `_app_views_products_new_html_erb__1246938441727292494_69841268925700'
+Started GET "/products/new" for 23.119.230.30 at 2017-05-24 02:20:47 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (210.9ms)
+  Rendered products/new.html.erb within layouts/application (212.4ms)
+Completed 500 Internal Server Error in 217ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007f0a5c113ab0>:0x007f0a6e757a18>):
+    27:   </div>
+    28:     
+    29:   <div class="field">
+    30:     <%= f.label :color %><br>
+    31:     <%= f.text_field :color %>
+    32:   </div>
+    33: 
+  
+app/views/products/_form.html.erb:30:in `block in _app_views_products__form_html_erb__911130196059531955_69841389500640'
+app/views/products/_form.html.erb:1:in `_app_views_products__form_html_erb__911130196059531955_69841389500640'
+app/views/products/new.html.erb:3:in `_app_views_products_new_html_erb__1246938441727292494_69841237377560'
+Started GET "/products/new/" for 23.119.230.30 at 2017-05-24 02:20:54 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (271.3ms)
+  Rendered products/new.html.erb within layouts/application (272.8ms)
+Completed 500 Internal Server Error in 277ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007f0a5c113ab0>:0x007f0a60063378>):
+    27:   </div>
+    28:     
+    29:   <div class="field">
+    30:     <%= f.label :color %><br>
+    31:     <%= f.text_field :color %>
+    32:   </div>
+    33: 
+  
+app/views/products/_form.html.erb:30:in `block in _app_views_products__form_html_erb__911130196059531955_69841268845040'
+app/views/products/_form.html.erb:1:in `_app_views_products__form_html_erb__911130196059531955_69841268845040'
+app/views/products/new.html.erb:3:in `_app_views_products_new_html_erb__1246938441727292494_69841268711200'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to RenameColorsInProducts (20170524023216)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (7.7ms)[0m  [1m[35mCREATE TEMPORARY TABLE "aproducts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar DEFAULT NULL, "description" text DEFAULT NULL, "image_url" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "colour" varchar DEFAULT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[32mINSERT INTO "aproducts" ("id","name","description","image_url","created_at","updated_at","colour")
+                     SELECT "id","name","description","image_url","created_at","updated_at","color" FROM "products"[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE "products"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar DEFAULT NULL, "description" text DEFAULT NULL, "image_url" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "colour" varchar DEFAULT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[32mINSERT INTO "products" ("id","name","description","image_url","created_at","updated_at","colour")
+                     SELECT "id","name","description","image_url","created_at","updated_at","colour" FROM "aproducts"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE "aproducts"[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170524023216"]]
+  [1m[35m (57.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/products/new" for 23.119.230.30 at 2017-05-24 02:36:47 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (356.9ms)
+  Rendered products/new.html.erb within layouts/application (358.6ms)
+Completed 500 Internal Server Error in 377ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007f0a6e388630>:0x007f0a6e85a5a0>):
+    27:   </div>
+    28:     
+    29:   <div class="field">
+    30:     <%= f.label :color %><br>
+    31:     <%= f.text_field :color %>
+    32:   </div>
+    33: 
+  
+app/views/products/_form.html.erb:30:in `block in _app_views_products__form_html_erb__911130196059531955_69841387748340'
+app/views/products/_form.html.erb:1:in `_app_views_products__form_html_erb__911130196059531955_69841387748340'
+app/views/products/new.html.erb:3:in `_app_views_products_new_html_erb__1246938441727292494_69841387801900'
+Started GET "/products/new" for 23.119.230.30 at 2017-05-24 02:37:09 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (255.9ms)
+  Rendered products/new.html.erb within layouts/application (257.4ms)
+Completed 500 Internal Server Error in 262ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007f0a6e388630>:0x007f0a6ce33ac8>):
+    27:   </div>
+    28:     
+    29:   <div class="field">
+    30:     <%= f.label :color %><br>
+    31:     <%= f.text_field :color %>
+    32:   </div>
+    33: 
+  
+app/views/products/_form.html.erb:30:in `block in _app_views_products__form_html_erb__911130196059531955_69841376451920'
+app/views/products/_form.html.erb:1:in `_app_views_products__form_html_erb__911130196059531955_69841376451920'
+app/views/products/new.html.erb:3:in `_app_views_products_new_html_erb__1246938441727292494_69841376643720'
+Started GET "/products/new" for 23.119.230.30 at 2017-05-24 02:42:56 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (289.4ms)
+  Rendered products/new.html.erb within layouts/application (291.4ms)
+Completed 500 Internal Server Error in 296ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007f0a6e388630>:0x007f0a6dee6028>):
+    27:   </div>
+    28:     
+    29:   <div class="field">
+    30:     <%= f.label :color %><br>
+    31:     <%= f.text_field :color %>
+    32:   </div>
+    33: 
+  
+app/views/products/_form.html.erb:30:in `block in _app_views_products__form_html_erb__911130196059531955_69841385428420'
+app/views/products/_form.html.erb:1:in `_app_views_products__form_html_erb__911130196059531955_69841385428420'
+app/views/products/new.html.erb:3:in `_app_views_products_new_html_erb__1246938441727292494_69841385372800'
+Started GET "/" for 23.119.230.30 at 2017-05-24 02:46:23 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 106ms (Views: 103.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/new" for 23.119.230.30 at 2017-05-24 02:47:47 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (252.3ms)
+  Rendered products/new.html.erb within layouts/application (253.8ms)
+Completed 500 Internal Server Error in 260ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007f0a6e388630>:0x007f0a6e59a748>):
+    27:   </div>
+    28:     
+    29:   <div class="field">
+    30:     <%= f.label :color %><br>
+    31:     <%= f.text_field :color %>
+    32:   </div>
+    33: 
+  
+app/views/products/_form.html.erb:30:in `block in _app_views_products__form_html_erb__911130196059531955_69841336929220'
+app/views/products/_form.html.erb:1:in `_app_views_products__form_html_erb__911130196059531955_69841336929220'
+app/views/products/new.html.erb:3:in `_app_views_products_new_html_erb__1246938441727292494_69841388886160'
+Started GET "/" for 23.119.230.30 at 2017-05-24 02:51:30 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 63ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/new" for 23.119.230.30 at 2017-05-24 02:51:39 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (809.2ms)
+  Rendered products/new.html.erb within layouts/application (811.4ms)
+Completed 500 Internal Server Error in 828ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007f0a6e388630>:0x000000042f7570>):
+    27:   </div>
+    28:     
+    29:   <div class="field">
+    30:     <%= f.label :color %><br>
+    31:     <%= f.text_field :color %>
+    32:   </div>
+    33: 
+  
+app/views/products/_form.html.erb:30:in `block in _app_views_products__form_html_erb__911130196059531955_34791180'
+app/views/products/_form.html.erb:1:in `_app_views_products__form_html_erb__911130196059531955_34791180'
+app/views/products/new.html.erb:3:in `_app_views_products_new_html_erb__1246938441727292494_35126500'
+Started GET "/products/new" for 23.119.230.30 at 2017-05-24 02:51:47 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (419.1ms)
+  Rendered products/new.html.erb within layouts/application (420.4ms)
+Completed 500 Internal Server Error in 424ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007f0a6e388630>:0x007f0a6dcc5118>):
+    27:   </div>
+    28:     
+    29:   <div class="field">
+    30:     <%= f.label :color %><br>
+    31:     <%= f.text_field :color %>
+    32:   </div>
+    33: 
+  
+app/views/products/_form.html.erb:30:in `block in _app_views_products__form_html_erb__911130196059531955_69841385211460'
+app/views/products/_form.html.erb:1:in `_app_views_products__form_html_erb__911130196059531955_69841385211460'
+app/views/products/new.html.erb:3:in `_app_views_products_new_html_erb__1246938441727292494_69841384309320'
+Started GET "/products/new" for 23.119.230.30 at 2017-05-24 02:52:32 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (4.3ms) [cache miss]
+  Rendered products/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/products" for 23.119.230.30 at 2017-05-24 02:54:36 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"c8dwoEzwMI2vPwjwlXdCyAiz037rC4yKTHYGyZCOkyMkZtP8Q39Sx2lcuve6zWHwYZAjwK+LwjyfSsLEMN2kag==", "product"=>{"name"=>"fishing rod", "description"=>"Fishing rod and reel", "image_url"=>"http://clipartsign.com/image/41801/", "color"=>"black"}, "commit"=>"Create Product"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'color' for Product.):
+  
+app/controllers/products_controller.rb:27:in `create'
+Started GET "/products" for 23.119.230.30 at 2017-05-24 03:03:51 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (16.1ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 1.4ms)
+
+
+  
+ActionView::Template::Error (undefined method `color' for #<Product:0x007f0a6c9fad08>
+Did you mean?  colour
+               colour?
+               colour=):
+    17:         <td><%= product.name %></td>
+    18:         <td><%= product.description %></td>
+    19:         <td><%= product.image_url %></td>
+    20:         <td><%= product.color %></td>
+    21:         <td><%= link_to 'Show', product %></td>
+    22:         <td><%= link_to 'Edit', edit_product_path(product) %></td>
+    23:         <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  
+app/views/products/index.html.erb:20:in `block in _app_views_products_index_html_erb___4185258530862303027_69841375626520'
+app/views/products/index.html.erb:15:in `_app_views_products_index_html_erb___4185258530862303027_69841375626520'
+Started GET "/products" for 23.119.230.30 at 2017-05-24 03:04:31 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (25.8ms)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 1.4ms)
+
+
+  
+ActionView::Template::Error (undefined method `color' for #<Product:0x007f0a6867f2b8>
+Did you mean?  colour
+               colour?
+               colour=):
+    17:         <td><%= product.name %></td>
+    18:         <td><%= product.description %></td>
+    19:         <td><%= product.image_url %></td>
+    20:         <td><%= product.color %></td>
+    21:         <td><%= link_to 'Show', product %></td>
+    22:         <td><%= link_to 'Edit', edit_product_path(product) %></td>
+    23:         <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  
+app/views/products/index.html.erb:20:in `block in _app_views_products_index_html_erb___4185258530862303027_69841337982480'
+app/views/products/index.html.erb:15:in `_app_views_products_index_html_erb___4185258530862303027_69841337982480'
+Started GET "/products" for 23.119.230.30 at 2017-05-24 03:04:38 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (8.8ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined method `color' for #<Product:0x007f0a6cb51c38>
+Did you mean?  colour
+               colour?
+               colour=):
+    17:         <td><%= product.name %></td>
+    18:         <td><%= product.description %></td>
+    19:         <td><%= product.image_url %></td>
+    20:         <td><%= product.color %></td>
+    21:         <td><%= link_to 'Show', product %></td>
+    22:         <td><%= link_to 'Edit', edit_product_path(product) %></td>
+    23:         <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  
+app/views/products/index.html.erb:20:in `block in _app_views_products_index_html_erb___4185258530862303027_69841375292780'
+app/views/products/index.html.erb:15:in `_app_views_products_index_html_erb___4185258530862303027_69841375292780'
+Started GET "/products/new" for 23.119.230.30 at 2017-05-24 03:04:50 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (4.2ms) [cache miss]
+  Rendered products/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 67ms (Views: 40.8ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/products" for 23.119.230.30 at 2017-05-24 03:05:16 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mA3QWR1aSpXV5a6F1UsI4AWPxVfwWGKPCOezm/ICH8XPrHMFEtUo3xOGHIL68SvYbKw16bTYLDnb23eWUlEojA==", "product"=>{"name"=>"rod", "description"=>"rod", "image_url"=>"http://clipartsign.com/image/41801/", "color"=>"black"}, "commit"=>"Create Product"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'color' for Product.):
+  
+app/controllers/products_controller.rb:27:in `create'
+Started GET "/products" for 23.119.230.30 at 2017-05-24 03:10:00 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (17.6ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 1.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `color' for #<Product:0x007f0a5c010668>
+Did you mean?  colour
+               colour?
+               colour=):
+    17:         <td><%= product.name %></td>
+    18:         <td><%= product.description %></td>
+    19:         <td><%= product.image_url %></td>
+    20:         <td><%= product.color %></td>
+    21:         <td><%= link_to 'Show', product %></td>
+    22:         <td><%= link_to 'Edit', edit_product_path(product) %></td>
+    23:         <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  
+app/views/products/index.html.erb:20:in `block in _app_views_products_index_html_erb___4185258530862303027_69841268947220'
+app/views/products/index.html.erb:15:in `_app_views_products_index_html_erb___4185258530862303027_69841268947220'
+Started GET "/" for 23.119.230.30 at 2017-05-24 03:11:54 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 176ms (Views: 174.0ms)
+
+
+Started GET "/products/new" for 23.119.230.30 at 2017-05-24 03:12:09 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (6.9ms) [cache miss]
+  Rendered products/new.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 121ms (Views: 104.0ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/products" for 23.119.230.30 at 2017-05-24 03:12:12 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cjdl2dMpxlIfrdoIDtf3nkq4ZmruI54XH7vLjHQAM+QllsaF3KakGNnOaA8hbdSmI5uW1Kqj0KHMhw+B1FMErQ==", "product"=>{"name"=>"", "description"=>"", "image_url"=>"", "color"=>""}, "commit"=>"Create Product"}
+Unpermitted parameter: :color
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", ""], ["description", ""], ["image_url", ""], ["created_at", "2017-05-24 03:12:12.290897"], ["updated_at", "2017-05-24 03:12:12.290897"]]
+  [1m[35m (10.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://workspace-ron90.c9users.io/products/3
+Completed 302 Found in 21ms (ActiveRecord: 14.0ms)
+
+
+Started GET "/products/3" for 23.119.230.30 at 2017-05-24 03:12:12 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  Rendered products/show.html.erb within layouts/application (9.5ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined method `color' for #<Product:0x007f0a6e8e66b8>
+Did you mean?  colour
+               colour?
+               colour=):
+    17: 
+    18: <p>
+    19:   <strong>Color:</strong>
+    20:   <%= @product.color %>
+    21: </p>
+    22: 
+    23: <%= link_to 'Edit', edit_product_path(@product) %> |
+  
+app/views/products/show.html.erb:20:in `_app_views_products_show_html_erb__3070443639513791680_69841390610700'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/products/3" for 23.119.230.30 at 2017-05-24 03:19:55 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  Rendered products/show.html.erb within layouts/application (9.4ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 1.9ms)
+
+
+  
+ActionView::Template::Error (undefined method `color' for #<Product:0x007f0a6821d210>
+Did you mean?  colour
+               colour?
+               colour=):
+    17: 
+    18: <p>
+    19:   <strong>Color:</strong>
+    20:   <%= @product.color %>
+    21: </p>
+    22: 
+    23: <%= link_to 'Edit', edit_product_path(@product) %> |
+  
+app/views/products/show.html.erb:20:in `_app_views_products_show_html_erb__3070443639513791680_69841236811120'
+Started GET "/products/new" for 23.119.230.30 at 2017-05-24 03:20:04 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (3.8ms) [cache miss]
+  Rendered products/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 35ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/products" for 23.119.230.30 at 2017-05-24 03:20:07 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Dn4eYc7LDIkQPJ38YRl7FNigI87/w5WvqMbRAEapvHhZ3709wURuw9ZfL/tOo1gssYPTcLtD2xl7+hUN5vqLMQ==", "product"=>{"name"=>"", "description"=>"", "image_url"=>"", "color"=>""}, "commit"=>"Create Product"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'color' for Product.):
+  
+app/controllers/products_controller.rb:27:in `create'
+Started GET "/products/new" for 23.119.230.30 at 2017-05-24 03:32:00 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (3.6ms) [cache miss]
+  Rendered products/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 43ms (Views: 27.7ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/products" for 23.119.230.30 at 2017-05-24 03:32:03 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"H23KHaaHfmuJsWi8fXesIzpEXs8BBd/RXBgklo7uFmlIzGlBqQgcIU/S2rtSzY8bU2eucUWFkWePJOCbLr0hIA==", "product"=>{"name"=>"", "description"=>"", "image_url"=>"", "colour"=>""}, "commit"=>"Create Product"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image_url", "created_at", "updated_at", "colour") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", ""], ["description", ""], ["image_url", ""], ["created_at", "2017-05-24 03:32:03.626528"], ["updated_at", "2017-05-24 03:32:03.626528"], ["colour", ""]]
+  [1m[35m (14.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://workspace-ron90.c9users.io/products/4
+Completed 302 Found in 21ms (ActiveRecord: 14.8ms)
+
+
+Started GET "/products/4" for 23.119.230.30 at 2017-05-24 03:32:03 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  Rendered products/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 32ms (Views: 27.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-05-24 03:32:08 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (12.8ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `color' for #<Product:0x007f0a5c673d20>
+Did you mean?  colour
+               colour?
+               colour=):
+    17:         <td><%= product.name %></td>
+    18:         <td><%= product.description %></td>
+    19:         <td><%= product.image_url %></td>
+    20:         <td><%= product.color %></td>
+    21:         <td><%= link_to 'Show', product %></td>
+    22:         <td><%= link_to 'Edit', edit_product_path(product) %></td>
+    23:         <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  
+app/views/products/index.html.erb:20:in `block in _app_views_products_index_html_erb___4185258530862303027_69841337837780'
+app/views/products/index.html.erb:15:in `_app_views_products_index_html_erb___4185258530862303027_69841337837780'
+Started GET "/products/new" for 23.119.230.30 at 2017-05-24 03:32:19 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (2.9ms) [cache miss]
+  Rendered products/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/products" for 23.119.230.30 at 2017-05-24 03:32:46 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rqAp8V0I2tAALqyw+uKNK3PhPolkZXJTUt+HsBg50JT5AYqtUoe4msZNHrfVWK4TGsLONyDlPOWB40O9uGrn3Q==", "product"=>{"name"=>"rod", "description"=>"rod and reel", "image_url"=>"http://clipartsign.com/image/41801/", "colour"=>"black"}, "commit"=>"Create Product"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image_url", "created_at", "updated_at", "colour") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "rod"], ["description", "rod and reel"], ["image_url", "http://clipartsign.com/image/41801/"], ["created_at", "2017-05-24 03:32:46.658806"], ["updated_at", "2017-05-24 03:32:46.658806"], ["colour", "black"]]
+  [1m[35m (13.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://workspace-ron90.c9users.io/products/5
+Completed 302 Found in 19ms (ActiveRecord: 13.5ms)
+
+
+Started GET "/products/5" for 23.119.230.30 at 2017-05-24 03:32:46 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  Rendered products/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 23ms (Views: 20.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-05-24 03:32:50 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (18.2ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined method `color' for #<Product:0x007f0a6cb2ae58>
+Did you mean?  colour
+               colour?
+               colour=):
+    17:         <td><%= product.name %></td>
+    18:         <td><%= product.description %></td>
+    19:         <td><%= product.image_url %></td>
+    20:         <td><%= product.color %></td>
+    21:         <td><%= link_to 'Show', product %></td>
+    22:         <td><%= link_to 'Edit', edit_product_path(product) %></td>
+    23:         <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  
+app/views/products/index.html.erb:20:in `block in _app_views_products_index_html_erb___4185258530862303027_69841375246000'
+app/views/products/index.html.erb:15:in `_app_views_products_index_html_erb___4185258530862303027_69841375246000'
+Started GET "/products" for 23.119.230.30 at 2017-05-24 03:32:54 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (11.2ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined method `color' for #<Product:0x007f0a5c1d4440>
+Did you mean?  colour
+               colour?
+               colour=):
+    17:         <td><%= product.name %></td>
+    18:         <td><%= product.description %></td>
+    19:         <td><%= product.image_url %></td>
+    20:         <td><%= product.color %></td>
+    21:         <td><%= link_to 'Show', product %></td>
+    22:         <td><%= link_to 'Edit', edit_product_path(product) %></td>
+    23:         <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  
+app/views/products/index.html.erb:20:in `block in _app_views_products_index_html_erb___4185258530862303027_69841338329540'
+app/views/products/index.html.erb:15:in `_app_views_products_index_html_erb___4185258530862303027_69841338329540'
+Started GET "/products" for 23.119.230.30 at 2017-05-24 03:35:17 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (1.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 32ms (Views: 28.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 23.119.230.30 at 2017-05-25 00:50:08 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (251.8ms)
+Completed 200 OK in 340ms (Views: 324.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for 23.119.230.30 at 2017-05-25 00:50:11 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/contact" for 23.119.230.30 at 2017-05-25 00:50:13 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for 23.119.230.30 at 2017-05-25 00:50:15 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 40ms (Views: 38.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 23.119.230.30 at 2017-05-25 00:50:17 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddPriceToProducts (20170525012524)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (2.5ms)[0m  [1m[35mALTER TABLE "products" ADD "price" varchar[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170525012524"]]
+  [1m[35m (10.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/products/new" for 23.119.230.30 at 2017-05-25 01:32:56 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (28.8ms) [cache miss]
+  Rendered products/new.html.erb within layouts/application (30.4ms)
+Completed 200 OK in 111ms (Views: 62.6ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/products" for 23.119.230.30 at 2017-05-25 01:33:03 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Tgl3osqbunnlA/NgdcpDN38b3LluVtApvjhaclMtHqIZqNT+xRTYMyNgQWdacGAPFjgsByrWnp9tBJ5/834p6w==", "product"=>{"name"=>"", "description"=>"", "image_url"=>"", "colour"=>"", "price"=>"5.50"}, "commit"=>"Create Product"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image_url", "created_at", "updated_at", "colour", "price") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", ""], ["description", ""], ["image_url", ""], ["created_at", "2017-05-25 01:33:03.970406"], ["updated_at", "2017-05-25 01:33:03.970406"], ["colour", ""], ["price", "5.50"]]
+  [1m[35m (11.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://workspace-ron90.c9users.io/products/6
+Completed 302 Found in 19ms (ActiveRecord: 12.6ms)
+
+
+Started GET "/products/6" for 23.119.230.30 at 2017-05-25 01:33:04 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  Rendered products/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 31ms (Views: 23.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-05-25 01:33:12 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 65ms (Views: 63.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products/1" for 23.119.230.30 at 2017-05-25 01:39:10 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  Rendered products/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 46ms (Views: 42.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-05-25 01:39:18 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 45ms (Views: 43.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products/4/edit" for 23.119.230.30 at 2017-05-25 01:39:24 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (7.2ms) [cache miss]
+  Rendered products/edit.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 57ms (Views: 53.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products/2/edit" for 23.119.230.30 at 2017-05-25 01:42:52 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (4.8ms) [cache miss]
+  Rendered products/edit.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 39ms (Views: 36.3ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/products/2" for 23.119.230.30 at 2017-05-25 01:44:53 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LfjFKUSs3kVpWxmYultpoME4tDLdNntU/vQz9Dw1erPFTdoH51/KiJBOPncLlDk5N1nATHgcnKI80LmrkpheXQ==", "product"=>{"name"=>"seed-generated product", "description"=>"I also created this product without using the HTML form!", "image_url"=>"https://pixabay.com/en/cat-animals-cats-portrait-of-cat-778315/", "colour"=>"green", "price"=>"20.00"}, "commit"=>"Update Product", "id"=>"2"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[33mUPDATE "products" SET "image_url" = ?, "colour" = ?, "price" = ?, "updated_at" = ? WHERE "products"."id" = ?[0m  [["image_url", "https://pixabay.com/en/cat-animals-cats-portrait-of-cat-778315/"], ["colour", "green"], ["price", "20.00"], ["updated_at", "2017-05-25 01:44:53.511630"], ["id", 2]]
+  [1m[35m (83.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://workspace-ron90.c9users.io/products/2
+Completed 302 Found in 93ms (ActiveRecord: 84.6ms)
+
+
+Started GET "/products/2" for 23.119.230.30 at 2017-05-25 01:44:53 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  Rendered products/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 36ms (Views: 31.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products/2/edit" for 23.119.230.30 at 2017-05-25 01:45:00 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (4.6ms) [cache miss]
+  Rendered products/edit.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 35ms (Views: 32.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 23.119.230.30 at 2017-05-25 01:45:09 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 26ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/new" for 23.119.230.30 at 2017-05-25 01:45:16 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (4.9ms) [cache miss]
+  Rendered products/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 36ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-05-25 01:45:22 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products/2" for 23.119.230.30 at 2017-05-25 01:45:46 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  Rendered products/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-05-25 01:46:27 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/products/1" for 23.119.230.30 at 2017-05-25 01:47:20 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"eAJx0E46brjJCVZJbLLBHM86KstLYJG2+vU8TUKI6RMvo9KMQbUM8g9q5E5DCOIkphnadQ/g3wApyfhA4tveWg==", "id"=>"1"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 1]]
+  [1m[35m (12.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://workspace-ron90.c9users.io/products
+Completed 302 Found in 159ms (ActiveRecord: 14.1ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-05-25 01:47:20 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 31ms (Views: 29.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-05-25 01:47:44 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products/new" for 23.119.230.30 at 2017-05-25 01:47:57 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (4.1ms) [cache miss]
+  Rendered products/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 30ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/products" for 23.119.230.30 at 2017-05-25 01:48:29 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"szv3NKz5At/swW2OuoLrILw+umXudfVHKOkMtHv57xykX8qLK2VEiQ3mWpJxglQpgjnhnwGvHojlmEBiNmLsew==", "product"=>{"name"=>"cat", "description"=>"kitty cat", "image_url"=>"https://pixabay.com/en/cat-sweet-kitty-animals-323262/", "colour"=>"black", "price"=>"20.00"}, "commit"=>"Create Product"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "products" ("name", "description", "image_url", "created_at", "updated_at", "colour", "price") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "cat"], ["description", "kitty cat"], ["image_url", "https://pixabay.com/en/cat-sweet-kitty-animals-323262/"], ["created_at", "2017-05-25 01:48:29.453119"], ["updated_at", "2017-05-25 01:48:29.453119"], ["colour", "black"], ["price", "20.00"]]
+  [1m[35m (10.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://workspace-ron90.c9users.io/products/7
+Completed 302 Found in 18ms (ActiveRecord: 11.6ms)
+
+
+Started GET "/products/7" for 23.119.230.30 at 2017-05-25 01:48:29 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  Rendered products/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 26ms (Views: 23.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-05-25 01:48:34 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 26ms (Views: 24.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products/2" for 23.119.230.30 at 2017-05-25 01:48:43 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  Rendered products/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-05-25 01:48:49 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 27ms (Views: 25.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/products/6" for 23.119.230.30 at 2017-05-25 01:48:58 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  Rendered products/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 31ms (Views: 28.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products/4" for 23.119.230.30 at 2017-05-25 01:49:03 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  Rendered products/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 35ms (Views: 31.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products/2" for 23.119.230.30 at 2017-05-25 01:49:09 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  Rendered products/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 29ms (Views: 26.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products/2/edit" for 23.119.230.30 at 2017-05-25 01:50:43 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (4.4ms) [cache miss]
+  Rendered products/edit.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 33ms (Views: 30.1ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/products/2" for 23.119.230.30 at 2017-05-25 01:50:48 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"n9JKo9ed5LcV04H1XPSzBYRsckvdFGxRJBx0Qd53m7N3Z1WNdG7weuzGphrtO+Occg0GNXg+i6fmOP4ecNq/XQ==", "product"=>{"name"=>"seed-generated product", "description"=>"I also created this product without using the HTML form!", "image_url"=>"https://www.pexels.com/photo/grey-and-white-short-fur-cat-104827/", "colour"=>"green", "price"=>"20.00"}, "commit"=>"Update Product", "id"=>"2"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "products" SET "image_url" = ?, "updated_at" = ? WHERE "products"."id" = ?[0m  [["image_url", "https://www.pexels.com/photo/grey-and-white-short-fur-cat-104827/"], ["updated_at", "2017-05-25 01:50:48.053911"], ["id", 2]]
+  [1m[35m (13.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://workspace-ron90.c9users.io/products/2
+Completed 302 Found in 133ms (ActiveRecord: 14.0ms)
+
+
+Started GET "/products/2" for 23.119.230.30 at 2017-05-25 01:50:48 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  Rendered products/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 30ms (Views: 26.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-05-25 01:50:51 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 29ms (Views: 27.4ms | ActiveRecord: 0.3ms)
+
+
