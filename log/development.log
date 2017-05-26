@@ -2926,3 +2926,390 @@ Processing by ProductsController#index as HTML
 Completed 200 OK in 29ms (Views: 27.4ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/" for 23.119.230.30 at 2017-05-26 00:45:26 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (831.1ms)
+Completed 200 OK in 877ms (Views: 869.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 23.119.230.30 at 2017-05-26 00:54:32 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/home/ubuntu/workspace/config/routes.rb:9: unterminated string meets end of file
+/home/ubuntu/workspace/config/routes.rb:9: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+config/routes.rb:9: unterminated string meets end of file
+config/routes.rb:9: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/" for 23.119.230.30 at 2017-05-26 00:55:45 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/home/ubuntu/workspace/config/routes.rb:9: unterminated string meets end of file
+/home/ubuntu/workspace/config/routes.rb:9: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+config/routes.rb:9: unterminated string meets end of file
+config/routes.rb:9: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/" for 23.119.230.30 at 2017-05-26 01:06:04 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/home/ubuntu/workspace/config/routes.rb:9: unterminated string meets end of file
+/home/ubuntu/workspace/config/routes.rb:9: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+config/routes.rb:9: unterminated string meets end of file
+config/routes.rb:9: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/" for 23.119.230.30 at 2017-05-26 01:15:16 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#landing_page as HTML
+  [1m[36mProduct Load (1.0ms)[0m  [1m[34mSELECT  "products".* FROM "products" ORDER BY "products"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  Rendered static_pages/landing_page.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 115ms (Views: 38.5ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-05-26 01:15:54 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 26ms (Views: 23.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-05-26 01:41:18 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 134ms (Views: 127.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 23.119.230.30 at 2017-05-26 01:41:24 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#landing_page as HTML
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" ORDER BY "products"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  Rendered static_pages/landing_page.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 20ms (Views: 17.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 23.119.230.30 at 2017-05-26 02:02:26 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#landing_page as HTML
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" ORDER BY "products"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  Rendered static_pages/landing_page.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 29ms (Views: 25.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-05-26 02:02:34 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 27ms (Views: 25.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products/3" for 23.119.230.30 at 2017-05-26 02:03:22 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  Rendered products/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 52ms (Views: 29.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/products/3/edit" for 23.119.230.30 at 2017-05-26 02:03:26 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (37.5ms) [cache miss]
+  Rendered products/edit.html.erb within layouts/application (43.1ms)
+Completed 200 OK in 74ms (Views: 70.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-05-26 02:03:28 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 25ms (Views: 23.1ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/products/3" for 23.119.230.30 at 2017-05-26 02:03:32 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"jIm3E4gW1sJbfMeBXYqw2sBwJymBZqdQf7RHU+ktOP2Jdg2yUoEqksjPyFIE2Qtinhxr1CdMlRcYfaSL5pD8Fg==", "id"=>"3"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 3]]
+  [1m[35m (10.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://cfwork-ron90.c9users.io/products
+Completed 302 Found in 16ms (ActiveRecord: 10.6ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-05-26 02:03:32 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/products/4" for 23.119.230.30 at 2017-05-26 02:03:35 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Oda69YLp1HoUhGZ4KsYuaiTw53gj8Zcd6fbzlJchNBo8KQBUWH4oKoc3aatzlZXSepyrhYXbpVqOPxBMmJzw8Q==", "id"=>"4"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 4]]
+  [1m[35m (9.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://cfwork-ron90.c9users.io/products
+Completed 302 Found in 15ms (ActiveRecord: 10.2ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-05-26 02:03:35 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-05-26 02:10:54 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-05-26 02:11:34 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products/2/edit" for 23.119.230.30 at 2017-05-26 02:12:39 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (4.1ms) [cache miss]
+  Rendered products/edit.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 30ms (Views: 27.3ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/products/2" for 23.119.230.30 at 2017-05-26 02:12:45 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wPifTCxkL1GD7T6604yntKtFq3tqsQbhvOg4aCuMZ/TfYXCRfT0XIqX5oZtkC/DZlvqpHdgU3fUr1kQXLYboRw==", "product"=>{"name"=>"seed-generated product", "description"=>"I also created this product without using the HTML form!", "image_url"=>"https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwi2_OfxvYzUAhVG0FQKHRl_BbEQjRwIBw&url=https%3A%2F%2Fwww.battersea.org.uk%2Fcats&psig=AFQjCNEnbNn0RMLAJQ3et7Vbt42XKXLEEA&ust=1495851142063401", "colour"=>"green", "price"=>"20.00"}, "commit"=>"Update Product", "id"=>"2"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[33mUPDATE "products" SET "image_url" = ?, "updated_at" = ? WHERE "products"."id" = ?[0m  [["image_url", "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwi2_OfxvYzUAhVG0FQKHRl_BbEQjRwIBw&url=https%3A%2F%2Fwww.battersea.org.uk%2Fcats&psig=AFQjCNEnbNn0RMLAJQ3et7Vbt42XKXLEEA&ust=1495851142063401"], ["updated_at", "2017-05-26 02:12:45.102075"], ["id", 2]]
+  [1m[35m (15.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://cfwork-ron90.c9users.io/products/2
+Completed 302 Found in 24ms (ActiveRecord: 16.7ms)
+
+
+Started GET "/products/2" for 23.119.230.30 at 2017-05-26 02:12:45 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  Rendered products/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 22ms (Views: 19.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-05-26 02:12:50 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products/2/edit" for 23.119.230.30 at 2017-05-26 02:13:34 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (4.8ms) [cache miss]
+  Rendered products/edit.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 33ms (Views: 31.3ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/products/2" for 23.119.230.30 at 2017-05-26 02:13:40 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+0m1tO4asmbPBEJOjBQD0tLM1YLUj4AwuY4DTyVkAhnk0Fppv0OKFekQ3W87k1S/73PX5GYqWyQusH8wI26Nqg==", "product"=>{"name"=>"seed-generated product", "description"=>"I also created this product without using the HTML form!", "image_url"=>"http://www.rd.com/wp-content/uploads/sites/2/2016/04/01-cat-wants-to-tell-you-laptop.jpg", "colour"=>"green", "price"=>"20.00"}, "commit"=>"Update Product", "id"=>"2"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "products" SET "image_url" = ?, "updated_at" = ? WHERE "products"."id" = ?[0m  [["image_url", "http://www.rd.com/wp-content/uploads/sites/2/2016/04/01-cat-wants-to-tell-you-laptop.jpg"], ["updated_at", "2017-05-26 02:13:40.721170"], ["id", 2]]
+  [1m[35m (9.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://cfwork-ron90.c9users.io/products/2
+Completed 302 Found in 17ms (ActiveRecord: 10.5ms)
+
+
+Started GET "/products/2" for 23.119.230.30 at 2017-05-26 02:13:41 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  Rendered products/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-05-26 02:13:43 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products/2/edit" for 23.119.230.30 at 2017-05-26 02:14:22 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (4.6ms) [cache miss]
+  Rendered products/edit.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 29ms (Views: 26.6ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/products/2" for 23.119.230.30 at 2017-05-26 02:14:29 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v35OtpQqFq1DZv7gZ/SNx421Gx7C0PKZ9OJvneR7eJeg56FrxXMu3mVyYcHQc9qqsAoZeHB1KY1j3BPi4nH3JA==", "product"=>{"name"=>"seed-generated product", "description"=>"I also created this product without using the HTML form!", "image_url"=>"https://www.royalcanin.com/~/media/Royal-Canin/Product-Categories/cat-adult-landing-hero.ashx", "colour"=>"green", "price"=>"20.00"}, "commit"=>"Update Product", "id"=>"2"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[33mUPDATE "products" SET "image_url" = ?, "updated_at" = ? WHERE "products"."id" = ?[0m  [["image_url", "https://www.royalcanin.com/~/media/Royal-Canin/Product-Categories/cat-adult-landing-hero.ashx"], ["updated_at", "2017-05-26 02:14:29.644603"], ["id", 2]]
+  [1m[35m (9.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://cfwork-ron90.c9users.io/products/2
+Completed 302 Found in 17ms (ActiveRecord: 10.8ms)
+
+
+Started GET "/products/2" for 23.119.230.30 at 2017-05-26 02:14:29 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  Rendered products/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 20ms (Views: 17.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-05-26 02:14:31 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products/5/edit" for 23.119.230.30 at 2017-05-26 02:15:07 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (16.9ms) [cache miss]
+  Rendered products/edit.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 51ms (Views: 48.1ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/products/5" for 23.119.230.30 at 2017-05-26 02:15:19 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JZi1A1Lo98LFDYE07FAkSfSY4Y453k1lJZ0uBNxUW2Lg8pklwCxAnd5WflXMNiu+qa/IT6hkd6RBaKS6ecJvCg==", "product"=>{"name"=>"rod", "description"=>"rod and reel", "image_url"=>"http://cdn3.volusion.com/efxjc.dkzym/v/vspfiles/photos/8384-2.jpg?1406131250", "colour"=>"black", "price"=>"15.00"}, "commit"=>"Update Product", "id"=>"5"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "products" SET "image_url" = ?, "price" = ?, "updated_at" = ? WHERE "products"."id" = ?[0m  [["image_url", "http://cdn3.volusion.com/efxjc.dkzym/v/vspfiles/photos/8384-2.jpg?1406131250"], ["price", "15.00"], ["updated_at", "2017-05-26 02:15:19.271116"], ["id", 5]]
+  [1m[35m (12.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://cfwork-ron90.c9users.io/products/5
+Completed 302 Found in 19ms (ActiveRecord: 13.6ms)
+
+
+Started GET "/products/5" for 23.119.230.30 at 2017-05-26 02:15:19 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  Rendered products/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-05-26 02:15:21 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 27ms (Views: 25.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products/7/edit" for 23.119.230.30 at 2017-05-26 02:17:25 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/application
+  Rendered products/_form.html.erb (3.0ms) [cache miss]
+  Rendered products/edit.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/products/7" for 23.119.230.30 at 2017-05-26 02:17:30 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Os+AxvXoJJEc+aMB6dr/it4L035XIadmicqhqUmtvMiURwJMHVsGFcqq5GSfDJIVTo6Mu7Afa+V6EfdZj36qCQ==", "product"=>{"name"=>"cat", "description"=>"kitty cat", "image_url"=>"https://www.royalcanin.com/~/media/Royal-Canin/Product-Categories/cat-breed-landing-hero.ashx", "colour"=>"black", "price"=>"20.00"}, "commit"=>"Update Product", "id"=>"7"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "products" SET "image_url" = ?, "updated_at" = ? WHERE "products"."id" = ?[0m  [["image_url", "https://www.royalcanin.com/~/media/Royal-Canin/Product-Categories/cat-breed-landing-hero.ashx"], ["updated_at", "2017-05-26 02:17:30.994144"], ["id", 7]]
+  [1m[35m (8.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://cfwork-ron90.c9users.io/products/7
+Completed 302 Found in 14ms (ActiveRecord: 9.2ms)
+
+
+Started GET "/products/7" for 23.119.230.30 at 2017-05-26 02:17:31 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering products/show.html.erb within layouts/application
+  Rendered products/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 20ms (Views: 17.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-05-26 02:17:32 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 25ms (Views: 23.0ms | ActiveRecord: 0.4ms)
+
+
