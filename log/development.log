@@ -3313,3 +3313,22 @@ Processing by ProductsController#index as HTML
 Completed 200 OK in 25ms (Views: 23.0ms | ActiveRecord: 0.4ms)
 
 
+Started GET "/" for 64.71.25.2 at 2017-05-29 05:34:53 +0000
+Cannot render console from 64.71.25.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#landing_page as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" ORDER BY "products"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  Rendered static_pages/landing_page.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 257ms (Views: 221.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/products" for 64.71.25.2 at 2017-05-29 05:35:07 +0000
+Cannot render console from 64.71.25.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 25ms (Views: 22.7ms | ActiveRecord: 0.3ms)
+
+
