@@ -3416,3 +3416,589 @@ Completed 200 OK in 348ms (Views: 295.5ms | ActiveRecord: 1.8ms)
   [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
   [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
   [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Started GET "/" for 23.119.230.30 at 2017-06-02 05:47:50 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#landing_page as HTML
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" ORDER BY "products"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  Rendered static_pages/landing_page.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 74ms (ActiveRecord: 1.7ms)
+
+
+  
+SyntaxError (/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:3: syntax error, unexpected '<', expecting keyword_end
+'.freeze;<div id="carousel-example-gene...
+          ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:3: syntax error, unexpected keyword_class, expecting keyword_end
+...carousel-example-generic" class="carousel slide" data-ride="...
+...                               ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:3: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...ic" class="carousel slide" data-ride="carousel">
+...                               ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:5: syntax error, unexpected '<', expecting keyword_end
+'.freeze;  <ol class="carousel-indicators">
+            ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected '<'
+    <li data-target="#carousel-exa...
+     ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...#carousel-example-generic" data-slide-to="0" class="active">...
+...                               ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected keyword_class, expecting keyword_end
+...eneric" data-slide-to="0" class="active"></li>
+...                               ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected '<'
+...a-slide-to="0" class="active"></li>
+...                               ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:7: unknown regexp option - l
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+    <li data-target="#carousel-exa...
+     ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...#carousel-example-generic" data-slide-to="2"></li>
+...                               ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+...le-generic" data-slide-to="2"></li>
+...                               ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:9: unknown regexp option - l
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:12: syntax error, unexpected '<', expecting keyword_end
+    <div class="carousel-inner" role="listbox">
+     ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:12: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+    <div class="carousel-inner" role="listbox">
+                                    ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:14: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...fer.safe_append='    <div class="item'.freeze;@output_buffer...
+...                               ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:14: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...output_buffer.append=( " active" if product == @products.fir...
+...                               ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:16: syntax error, unexpected '<', expecting keyword_end
+      <div class="carousel-caption">
+       ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:18: syntax error, unexpected '<', expecting keyword_end
+      </div>
+       ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:19: unknown regexp options - dv
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:21: unterminated regexp meets end of file
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:21: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/static_pages/landing_page.html.erb:3: syntax error, unexpected '<', expecting keyword_end
+app/views/static_pages/landing_page.html.erb:3: syntax error, unexpected keyword_class, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:3: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:5: syntax error, unexpected '<', expecting keyword_end
+app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected keyword_class, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:7: unknown regexp option - l
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:9: unknown regexp option - l
+app/views/static_pages/landing_page.html.erb:12: syntax error, unexpected '<', expecting keyword_end
+app/views/static_pages/landing_page.html.erb:12: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:14: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+app/views/static_pages/landing_page.html.erb:14: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:16: syntax error, unexpected '<', expecting keyword_end
+app/views/static_pages/landing_page.html.erb:18: syntax error, unexpected '<', expecting keyword_end
+app/views/static_pages/landing_page.html.erb:19: unknown regexp options - dv
+app/views/static_pages/landing_page.html.erb:21: unterminated regexp meets end of file
+app/views/static_pages/landing_page.html.erb:21: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/" for 23.119.230.30 at 2017-06-02 05:48:31 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#landing_page as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" ORDER BY "products"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  Rendered static_pages/landing_page.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.6ms)
+
+
+  
+SyntaxError (/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:5: syntax error, unexpected '<', expecting keyword_end
+'.freeze;  <ol class="carousel-indicators">
+            ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected '<'
+    <li data-target="#carousel-exa...
+     ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...#carousel-example-generic" data-slide-to="0" class="active">...
+...                               ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected keyword_class, expecting keyword_end
+...eneric" data-slide-to="0" class="active"></li>
+...                               ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected '<'
+...a-slide-to="0" class="active"></li>
+...                               ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:7: unknown regexp option - l
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+    <li data-target="#carousel-exa...
+     ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...#carousel-example-generic" data-slide-to="2"></li>
+...                               ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+...le-generic" data-slide-to="2"></li>
+...                               ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:9: unknown regexp option - l
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:12: syntax error, unexpected '<', expecting keyword_end
+    <div class="carousel-inner" role="listbox">
+     ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:12: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+    <div class="carousel-inner" role="listbox">
+                                    ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:14: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...fer.safe_append='    <div class="item'.freeze;@output_buffer...
+...                               ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:14: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...output_buffer.append=( " active" if product == @products.fir...
+...                               ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:16: syntax error, unexpected '<', expecting keyword_end
+      <div class="carousel-caption">
+       ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:18: syntax error, unexpected '<', expecting keyword_end
+      </div>
+       ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:19: unknown regexp options - dv
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:21: unterminated regexp meets end of file
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:21: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/static_pages/landing_page.html.erb:5: syntax error, unexpected '<', expecting keyword_end
+app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected keyword_class, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:7: unknown regexp option - l
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:9: unknown regexp option - l
+app/views/static_pages/landing_page.html.erb:12: syntax error, unexpected '<', expecting keyword_end
+app/views/static_pages/landing_page.html.erb:12: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:14: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+app/views/static_pages/landing_page.html.erb:14: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:16: syntax error, unexpected '<', expecting keyword_end
+app/views/static_pages/landing_page.html.erb:18: syntax error, unexpected '<', expecting keyword_end
+app/views/static_pages/landing_page.html.erb:19: unknown regexp options - dv
+app/views/static_pages/landing_page.html.erb:21: unterminated regexp meets end of file
+app/views/static_pages/landing_page.html.erb:21: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/" for 23.119.230.30 at 2017-06-02 05:49:08 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#landing_page as HTML
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT  "products".* FROM "products" ORDER BY "products"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  Rendered static_pages/landing_page.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.5ms)
+
+
+  
+SyntaxError (/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected '<', expecting keyword_end
+'.freeze;    <li data-target="#carousel-exa...
+              ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...#carousel-example-generic" data-slide-to="0" class="active">...
+...                               ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected keyword_class, expecting keyword_end
+...eneric" data-slide-to="0" class="active"></li>
+...                               ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected '<'
+...a-slide-to="0" class="active"></li>
+...                               ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:7: unknown regexp option - l
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+    <li data-target="#carousel-exa...
+     ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...#carousel-example-generic" data-slide-to="2"></li>
+...                               ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+...le-generic" data-slide-to="2"></li>
+...                               ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:9: unknown regexp option - l
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:12: syntax error, unexpected '<', expecting keyword_end
+    <div class="carousel-inner" role="listbox">
+     ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:12: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+    <div class="carousel-inner" role="listbox">
+                                    ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:14: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...fer.safe_append='    <div class="item'.freeze;@output_buffer...
+...                               ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:14: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...output_buffer.append=( " active" if product == @products.fir...
+...                               ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:16: syntax error, unexpected '<', expecting keyword_end
+      <div class="carousel-caption">
+       ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:18: syntax error, unexpected '<', expecting keyword_end
+      </div>
+       ^
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:19: unknown regexp options - dv
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:21: unterminated regexp meets end of file
+/home/ubuntu/workspace/app/views/static_pages/landing_page.html.erb:21: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected '<', expecting keyword_end
+app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected keyword_class, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:6: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:7: unknown regexp option - l
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:8: syntax error, unexpected '<'
+app/views/static_pages/landing_page.html.erb:9: unknown regexp option - l
+app/views/static_pages/landing_page.html.erb:12: syntax error, unexpected '<', expecting keyword_end
+app/views/static_pages/landing_page.html.erb:12: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:14: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+app/views/static_pages/landing_page.html.erb:14: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/static_pages/landing_page.html.erb:16: syntax error, unexpected '<', expecting keyword_end
+app/views/static_pages/landing_page.html.erb:18: syntax error, unexpected '<', expecting keyword_end
+app/views/static_pages/landing_page.html.erb:19: unknown regexp options - dv
+app/views/static_pages/landing_page.html.erb:21: unterminated regexp meets end of file
+app/views/static_pages/landing_page.html.erb:21: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/" for 23.119.230.30 at 2017-06-02 05:49:43 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#landing_page as HTML
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" ORDER BY "products"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 848ms (Views: 844.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 23.119.230.30 at 2017-06-02 06:00:29 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#landing_page as HTML
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" ORDER BY "products"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 27ms (Views: 23.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 23.119.230.30 at 2017-06-02 06:03:58 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  Rendered static_pages/landing_page.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 14ms
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <h2>Featured Product:</h2>
+    2: <%= @featured_product.name %>
+    3: <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    4:   <!-- Indicators -->
+    5:   <ol class="carousel-indicators">
+  
+app/views/static_pages/landing_page.html.erb:2:in `_app_views_static_pages_landing_page_html_erb__354399280363053226_69883751770900'
+Started GET "/" for 23.119.230.30 at 2017-06-02 06:04:22 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 206ms (Views: 203.9ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-06-02 06:04:43 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/products
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/products (11.6ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (The asset " https://static.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg" is not present in the asset pipeline.):
+    15:   <tbody>
+    16:     <% @products.each do |product| %>
+    17:       <tr>
+    18:         <td><%= image_tag(product.image_url, class: "img-responsive") %></td>
+    19:         <td><%= product.name %></td>
+    20:         <td><%= product.description %></td>
+    21:         <td><%= product.colour %></td>
+  
+app/views/products/index.html.erb:18:in `block in _app_views_products_index_html_erb__1155730870441453200_69883752556300'
+app/views/products/index.html.erb:16:in `_app_views_products_index_html_erb__1155730870441453200_69883752556300'
+Started GET "/product" for 23.119.230.30 at 2017-06-02 06:05:09 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/product"):
+  
+actionpack (5.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.1) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 23.119.230.30 at 2017-06-02 06:35:02 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 44ms (Views: 37.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 23.119.230.30 at 2017-06-02 06:35:25 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 29ms (Views: 26.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 23.119.230.30 at 2017-06-02 07:12:01 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 29ms (Views: 25.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 23.119.230.30 at 2017-06-02 18:27:08 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (40.3ms)
+Completed 200 OK in 398ms (Views: 374.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 23.119.230.30 at 2017-06-02 18:27:34 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 38ms (Views: 35.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 23.119.230.30 at 2017-06-02 19:58:07 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (5.7ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 113ms (Views: 99.4ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/products/new" for 23.119.230.30 at 2017-06-02 19:58:12 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/products
+  Rendered products/_form.html.erb (86.3ms) [cache miss]
+  Rendered products/new.html.erb within layouts/products (91.9ms)
+Completed 200 OK in 273ms (Views: 97.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 23.119.230.30 at 2017-06-03 02:21:57 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (33.0ms)
+Completed 500 Internal Server Error in 291ms (ActiveRecord: 1.4ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "    width 17%": expected "{", was ";"):
+    3:   <head>
+    4:     <title>Rails5Proj</title>
+    5:     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    8:     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    9:     <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+app/assets/stylesheets/products.scss:7
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___3729969657966523813_31366620'
+Started GET "/" for 23.119.230.30 at 2017-06-03 02:23:42 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "    width 17%": expected "{", was ";"):
+    3:   <head>
+    4:     <title>Rails5Proj</title>
+    5:     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    8:     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    9:     <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+app/assets/stylesheets/products.scss:7
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___3729969657966523813_23564620'
+Started GET "/" for 23.119.230.30 at 2017-06-03 02:24:23 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "    width 17%": expected "{", was ";"):
+    3:   <head>
+    4:     <title>Rails5Proj</title>
+    5:     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    8:     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    9:     <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+app/assets/stylesheets/products.scss:7
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___3729969657966523813_69834389931560'
+Started GET "/" for 23.119.230.30 at 2017-06-03 02:25:34 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 118ms (Views: 116.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products/new" for 23.119.230.30 at 2017-06-03 02:25:51 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/products
+  Rendered products/_form.html.erb (19.0ms) [cache miss]
+  Rendered products/new.html.erb within layouts/products (20.8ms)
+Completed 200 OK in 27ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for 23.119.230.30 at 2017-06-03 02:26:07 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/new"):
+  
+actionpack (5.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.1) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 23.119.230.30 at 2017-06-03 02:26:15 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-06-03 02:29:40 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/products
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/products (7.8ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (The asset " https://static.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg" is not present in the asset pipeline.):
+    26:         <td class ="productdisplay"<%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    27:       </tr>
+    28:       <div class="col-sm-2 col-md-4">
+    29:         <%= image_tag(product.image_url, class: "img-responsive") %>  
+    30:         <%= product.name %>
+    31:         <%= product.description %>
+    32:         <%= product.colour %>
+  
+app/views/products/index.html.erb:29:in `block in _app_views_products_index_html_erb__532145597030759347_69834560030540'
+app/views/products/index.html.erb:18:in `_app_views_products_index_html_erb__532145597030759347_69834560030540'
+Started GET "/products/new" for 23.119.230.30 at 2017-06-03 02:31:22 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/products
+  Rendered products/_form.html.erb (5.8ms) [cache miss]
+  Rendered products/new.html.erb within layouts/products (7.8ms)
+Completed 200 OK in 13ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-06-03 02:57:17 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/products
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/products (8.7ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (The asset " https://static.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg" is not present in the asset pipeline.):
+    26:         <td class ="productdisplay"<%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    27:       </tr>
+    28:       <div class="col-sm-2 col-md-4">
+    29:         <%= image_tag(product.image_url, class: "img-responsive") %>  
+    30:         <%= product.name %>
+    31:         <%= product.description %>
+    32:         <%= product.colour %>
+  
+app/views/products/index.html.erb:29:in `block in _app_views_products_index_html_erb__532145597030759347_69834495851560'
+app/views/products/index.html.erb:18:in `_app_views_products_index_html_erb__532145597030759347_69834495851560'
+Started GET "/" for 23.119.230.30 at 2017-06-03 03:07:28 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#landing_page as HTML
+  Rendering static_pages/landing_page.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 3]]
+  Rendered static_pages/landing_page.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 26ms (Views: 24.3ms | ActiveRecord: 0.3ms)
+
+

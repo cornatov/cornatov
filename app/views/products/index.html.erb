@@ -1,33 +1,48 @@
-<h1>Listing products</h1>
+<h1>Product List</h1>
 
-<table>
+<table class="product-table">
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Description</th>
-      <th>Image url</th>
-      <th>colour</th>
-      <th>price</th>
+      <th class ="productdisplay">Name</th>
+      <th class ="productdisplay">Description</th>
+      <th class ="productdisplay">Image url</th>
+      <th class ="productdisplay">colour</th>
+      <th class ="productdisplay">price</th>
       <th colspan="3"></th>
     </tr>
   </thead>
 
   <tbody>
+  <div class="container"> 
+  <div class="row">
     <% @products.each do |product| %>
       <tr>
-        <td><%= image_tag(product.image_url, class: "img-responsive") %></td>
-        <td><%= product.name %></td>
-        <td><%= product.description %></td>
-        <td><%= product.colour %></td>
-        <td><%= product.price %></td>
-        <td><%= link_to 'Show', product %></td>
-        <td><%= link_to 'Edit', edit_product_path(product) %></td>
-        <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td class ="productdisplay"<%= product.name %></td>
+        <td class ="productdisplay"<%= product.description %></td>
+        <td class ="productdisplay"<%= product.colour %></td>
+        <td class ="productdisplay"<%= product.price %></td>
+        <td class ="productdisplay"<%= link_to 'Show', product %></td>
+        <td class ="productdisplay"<%= link_to 'Edit', edit_product_path(product) %></td>
+        <td class ="productdisplay"<%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
+      <div class="col-sm-2 col-md-4">
+        <%= image_tag(product.image_url, class: "img-responsive") %>  
+        <%= product.name %>
+        <%= product.description %>
+        <%= product.colour %>
+        <%= product.price %>
+        <%= link_to 'Show', product %>|<%= link_to 'Edit', edit_product_path(product) %>|<%= link_to 'Destroy'%>
+      </div> <!--closes col-->
+      
     <% end %>
   </tbody>
 </table>
 
+
+</div> <!--closes row-->
+</div> <!--closes container-->
+
 <br>
 
 <%= link_to 'New Product', new_product_path %>
+
