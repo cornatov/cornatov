@@ -4002,3 +4002,229 @@ Processing by StaticPagesController#landing_page as HTML
 Completed 200 OK in 26ms (Views: 24.3ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/products" for 23.119.230.30 at 2017-06-03 04:04:37 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/products
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/products (15.0ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (The asset " https://static.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg" is not present in the asset pipeline.):
+    26:         <td class ="productdisplay"<%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    27:       </tr>
+    28:       <div class="col-sm-2 col-md-4">
+    29:         <%= image_tag(product.image_url, class: "img-responsive") %>  
+    30:         <%= product.name %>
+    31:         <%= product.description %>
+    32:         <%= product.colour %>
+  
+app/views/products/index.html.erb:29:in `block in _app_views_products_index_html_erb__532145597030759347_69834390665400'
+app/views/products/index.html.erb:18:in `_app_views_products_index_html_erb__532145597030759347_69834390665400'
+Started GET "/products" for 23.119.230.30 at 2017-06-03 04:10:16 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/products
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/products (5.2ms)
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-06-03 04:56:06 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/products
+  [1m[36mProduct Load (2.0ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/products (9.8ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 2.0ms)
+
+
+  
+ActionView::Template::Error (The asset " https://static.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg" is not present in the asset pipeline.):
+    26:         <td class ="productdisplay"<%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    27:       </tr>
+    28:       <div class="col-sm-2 col-md-4">
+    29:         <%= image_tag(product.image_url, class: "img-responsive") %>
+    30:         <%= product.name %>
+    31:         <%= product.description %>
+    32:         <%= product.colour %>
+  
+app/views/products/index.html.erb:29:in `block in _app_views_products_index_html_erb__532145597030759347_69834531686640'
+app/views/products/index.html.erb:18:in `_app_views_products_index_html_erb__532145597030759347_69834531686640'
+Started GET "/products" for 23.119.230.30 at 2017-06-03 05:14:47 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/products
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/products (5.8ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (The asset "product.image_url, class: \"img-responsive\"" is not present in the asset pipeline.):
+    26:         <td class ="productdisplay"<%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    27:       </tr>
+    28:       <div class="col-sm-2 col-md-4">
+    29:         <%= image_tag 'product.image_url, class: "img-responsive"' %>
+    30:         <%= product.name %>
+    31:         <%= product.description %>
+    32:         <%= product.colour %>
+  
+app/views/products/index.html.erb:29:in `block in _app_views_products_index_html_erb__532145597030759347_69834391608720'
+app/views/products/index.html.erb:18:in `_app_views_products_index_html_erb__532145597030759347_69834391608720'
+Started GET "/products" for 23.119.230.30 at 2017-06-03 05:27:32 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/products
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/products (11.4ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (The asset " https://static.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg" is not present in the asset pipeline.):
+    26:         <td class ="productdisplay"<%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    27:       </tr>
+    28:       <div class="col-sm-2 col-md-4">
+    29:         <%= image_tag product.image_url, class: "img-responsive" %>
+    30:         <%= product.name %>
+    31:         <%= product.description %>
+    32:         <%= product.colour %>
+  
+app/views/products/index.html.erb:29:in `block in _app_views_products_index_html_erb__532145597030759347_69834544726560'
+app/views/products/index.html.erb:18:in `_app_views_products_index_html_erb__532145597030759347_69834544726560'
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "products"."image_url" FROM "products"[0m
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/products/ID/edit" for 23.119.230.30 at 2017-06-03 05:42:36 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"ID"}
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 8ms (ActiveRecord: 0.6ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'=ID):
+  
+app/controllers/products_controller.rb:67:in `set_product'
+Started GET "/products/6/edit" for 23.119.230.30 at 2017-06-03 05:43:22 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering products/edit.html.erb within layouts/products
+  Rendered products/_form.html.erb (8.0ms) [cache miss]
+  Rendered products/edit.html.erb within layouts/products (10.2ms)
+Completed 200 OK in 16ms (Views: 12.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/products/Product%20id:6/edit" for 23.119.230.30 at 2017-06-03 05:44:36 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#edit as HTML
+  Parameters: {"id"=>"Product id:6"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'=Product id:6):
+  
+app/controllers/products_controller.rb:67:in `set_product'
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (6.1ms)[0m  [1m[33mUPDATE "products" SET "image_url" = ?, "updated_at" = ? WHERE "products"."id" = ?[0m  [["image_url", "http://mymodernmet.com/wp/wp-content/uploads/archive/LQQS-z0Cu1omrmwJqYR1_1082023356.jpeg"], ["updated_at", "2017-06-03 05:58:59.496765"], ["id", 6]]
+  [1m[35m (16.3ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/products/Products" for 23.119.230.30 at 2017-06-03 06:02:34 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"Products"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.2ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Product with 'id'=Products):
+  
+app/controllers/products_controller.rb:67:in `set_product'
+Started GET "/products" for 23.119.230.30 at 2017-06-03 06:02:43 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/products
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/products (8.8ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (The asset " https://static.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg" is not present in the asset pipeline.):
+    26:         <td class ="productdisplay"<%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    27:       </tr>
+    28:       <div class="col-sm-2 col-md-4">
+    29:         <%= image_tag product.image_url, class: "img-responsive" %>
+    30:         <%= product.name %>
+    31:         <%= product.description %>
+    32:         <%= product.colour %>
+  
+app/views/products/index.html.erb:29:in `block in _app_views_products_index_html_erb__532145597030759347_69834562159300'
+app/views/products/index.html.erb:18:in `_app_views_products_index_html_erb__532145597030759347_69834562159300'
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "products" SET "image_url" = ?, "updated_at" = ? WHERE "products"."id" = ?[0m  [["image_url", "https://static.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg"], ["updated_at", "2017-06-03 06:04:33.355385"], ["id", 8]]
+  [1m[35m (13.9ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/products" for 23.119.230.30 at 2017-06-03 06:04:42 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/products
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/products (5.7ms)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-06-03 06:04:48 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/products
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/products (5.5ms)
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-06-03 06:04:53 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/products
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/products (6.5ms)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/products/new" for 23.119.230.30 at 2017-06-03 06:04:59 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#new as HTML
+  Rendering products/new.html.erb within layouts/products
+  Rendered products/_form.html.erb (19.1ms) [cache miss]
+  Rendered products/new.html.erb within layouts/products (21.4ms)
+Completed 200 OK in 27ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-06-03 06:05:05 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/products
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/products (6.7ms)
+Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products" for 23.119.230.30 at 2017-06-03 06:05:09 +0000
+Cannot render console from 23.119.230.30! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  Rendering products/index.html.erb within layouts/products
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/products (6.2ms)
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.4ms)
+
+
