@@ -5,9 +5,11 @@ class StaticPagesController < ApplicationController
 
 
 
-  def landing_page
-    @featured_product = Product.first(3)
-    @products = Product.limit(3)
-  end
+def landing_page
+  @products = Product.limit(3)
+ # render layout: "products"
+end
 
 end
+
+
