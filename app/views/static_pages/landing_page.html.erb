@@ -19,6 +19,9 @@
       <%= image_tag(product.image_url) %>
       <div class="carousel-caption">
         <%= product.name %>
+        <p><%= product.description %></p>
+        <p><%= product.colour %></p>
+        <strong>$ <%= product.price %></strong>
       </div>
         </div>
     <% end %>
