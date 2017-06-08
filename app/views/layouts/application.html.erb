@@ -16,14 +16,14 @@
       <a class="navbar-brand" href="#">Cornato Vella</a>
     </div>
     <ul class="nav navbar-nav">
-      <li><%= link_to "Home", static_pages_home_path%></li>>
+      <li><%= link_to "Home", static_pages_index_path%></li>>
       <li><%= link_to "About", static_pages_about_path%></li>
       <li><%= link_to "Contact", static_pages_contact_path%></li>
-      <li><%= link_to "Products", static_pages_products_path%></li>
+      <li><%= link_to 'Products', "/products" %></li>
     </ul>
     <form class="navbar-form navbar-left">
       <div class="field form-group">
-        <%= form_tag("/products" method: "get") do %>
+        <%= form_tag("/products", method: "get", class: "form-horizontal") do %>
           <%= label_tag(:q, "search for:") %>
           <%= text_field_tag(:q) %>
           <%= submit_tag("search") %>
