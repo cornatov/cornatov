@@ -13,7 +13,6 @@ Rails.application.routes.draw do
   
   root 'static_pages#landing_page'
   get 'static_pages/landing_page'
-  root 'products#index'
   #get '/products/:id', to: 'products#show'
   
   
