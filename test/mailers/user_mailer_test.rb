@@ -1,7 +1,8 @@
-require 'test_helper'
+#require 'test_helper'
 
-class UserMailerTest < ActionMailer::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+# Preview all emails at http://localhost:3000/rails/mailers/user_mailer 
+class UserMailerPreview < ActionMailer::Preview
+  def contact_form UserMailer.contact_form("john@example.com", "John", "Hello World!")
+end 
+
 end
