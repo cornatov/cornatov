@@ -1,10 +1,8 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <%= @product.image_url %>
-</p>
-
+<article class="container">
+  <div class="show">
 <h1 class="products">Product Info</h1>
+
+<p id="notice"><%= notice %></p>
 
 <p>
   <strong>Name:</strong>
@@ -16,6 +14,9 @@
   <%= @product.description %>
 </p>
 
+<p>
+  <%= image_tag(@product.image_url, class:"img-responsive") %>
+</p>
 
 <p>
   <strong>colour:</strong>
@@ -27,6 +28,12 @@
   <%= @product.price %>
 </p>
 
-<%= link_to 'Edit', edit_product_path(@product) %> |
-<%= link_to 'Back', products_path %>
+<%= @product.highest_rating_comment %>
+<%= @product.lowest_rating_comment %>
+
+
+<%= link_to 'Edit', edit_product_path(@product), class: "btn btn-default" %>
+<%= link_to 'Back', products_path, class: "btn btn-default" %>
 <%= link_to 'Back', :back %>
+</div>
+</article>
