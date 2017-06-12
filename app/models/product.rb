@@ -25,6 +25,3 @@ end
 
 end
 
-#config/environments/production.rb
-config.assets.compile = true
-config.assets.digest = true
