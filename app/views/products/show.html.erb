@@ -42,7 +42,12 @@
 	  	<tr>
 	  		<td><%= @product.colour %></td>
 	  	</tr>
-
+	  	<tr>
+	  		<td><strong>Average Customer Rating:</strong></td>
+	  	</tr>
+	  	<tr>
+	  		<td><div class="rated" data-score="<%= @product.average_rating %>"></div></td>
+	  	</tr>
 	  	<tr>
 	  		<td><strong>Price:</strong></td>
 	  	</tr>

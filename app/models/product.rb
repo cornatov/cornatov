@@ -11,12 +11,20 @@ def self.search(search_term)
   
 end
 
-def highest_rating_comment
+	def average_rating
+		comments.average(:rating).to_f
+	end
+
+	def highest_rating_comment
 		comments.rating_desc.first
 	end
 
 	def lowest_rating_comment
-		comments.rating_asc.first
+		comments.rating_desc.last
 	end
 
 end
+
+#config/environments/production.rb
+config.assets.compile = true
+config.assets.digest = true
