@@ -2,7 +2,13 @@
 	<h3><%= @comment_count %> Customer Reviews</h3>
 	<% if @product.comments.exists? %>
 		<% @comments.each do |comment| %>
-			<hr>
+		<p>
+		    <%= comment.user.first_name %> <small><em><%= "#{time_ago_in_words(comment.created_at)} ago" %></em></small>
+            <% if signed_in? && current_user.admin? %>
+			<hr><%= link_to ('<span class="glyphicon glyphicon-remove"></span>').html_safe, product_comment_path(comment.product, comment), method: :delete, data: { confirm: 'Are you sure?' } %>
+			<% end %>
+			</p>
+			
 			<h5><span class="rated" data-score="<%= comment.rating %>"></span> By <%= comment.user.first_name %> <small><em> <%= "#{time_ago_in_words(comment.created_at)} ago" %></em></small></h5>
 			<p class="comment-body"><%= comment.body %></p>
 		<% end %>
