@@ -12,6 +12,9 @@ end
 group :development, :test do
   gem 'sqlite3'
 end
+group :development, :test do
+  gem 'rspec-rails', '~> 3.5'
+end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.1'
 gem 'jquery-rails'
@@ -47,6 +50,9 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+end
+group :development, :test do
+  gem 'rspec-rails', '~> 3.5'
 end
 
 group :development do
