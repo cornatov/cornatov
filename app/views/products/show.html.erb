@@ -1,11 +1,4 @@
-<div class="row">
-  <% if notice %>
-    <div class="alert alert-danger" role="alert"><%= notice %></div>
-  <% end %>
-  <% if alert %>
-    <div class="alert alert-danger" role="alert"><%= alert %></div>
-  <% end %>
-</div><!-- /row -->
+
 <div class="row nav-ctl">
   <div class="col-md-12 col-sm-12">
 	  <%= link_to raw('<span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span> Back'), products_path, :class => "btn btn-default"  %>
@@ -13,34 +6,28 @@
   </div><!-- /nav-ctl -->
 </div><!-- /row -->
 <div class="row">
-  <div class="col-md-8 col-xs-12">
-		<%= image_tag(@product.image_url, class: "img-responsive") %>
-  </div><!-- /col-md-8 -->
-  <div class="col-md-4 col-xs-12">
-	  <table>
+  <div class="col-md-12 col-xs-12">
+		<%=image_tag(@product.image_url, class: "img-responsive", :class => "product_image") %>
+ 
+ <table>
+
 	  	<tr>
-	  		<td><strong>Name:</strong></td>
+	  		<td align="center"><h2><%= @product.name %></h2></td>
 	  	</tr>
 	  	<tr>
-	  		<td><h2><%= @product.name %></h2></td>
+	  		<td align="center"><strong>Description:</strong></td>
 	  	</tr>
 	  	<tr>
-	  		<td><strong>Description:</strong></td>
+	  		<td align="center"><%= @product.description %></td>
 	  	</tr>
 	  	<tr>
-	  		<td><%= @product.description %></td>
+	  		<td align="center"><% link_to "#{@product.image_url}", @product.image_url %></td>
 	  	</tr>
 	  	<tr>
-	  		<td><strong>Image url:</strong></td>
+	  		<td align="center"><strong>Colour:</strong></td>
 	  	</tr>
 	  	<tr>
-	  		<td><%= link_to "#{@product.image_url}", @product.image_url %></td>
-	  	</tr>
-	  	<tr>
-	  		<td><strong>Colour:</strong></td>
-	  	</tr>
-	  	<tr>
-	  		<td><%= @product.colour %></td>
+	  		<td align="center"><%= @product.colour %></td>
 	  	</tr>
 	  	<tr>
 	  		<td><strong>Average Customer Rating:</strong></td>
@@ -56,7 +43,7 @@
 	  	</tr>
 	  </table>
 	</div><!-- /col-md-4 -->
-</div><!-- /row -->
+</div> <!--product-detail-->
 
 <div class="col-md-12">
     <%= render partial:'new_comment' %>

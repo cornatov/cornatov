@@ -21,7 +21,7 @@
         <%= product.name %>
         <p><%= product.description %></p>
         <p><%= product.colour %></p>
-        <strong>$ <%= product.price %></strong>
+        <strong>$ <%= number_to_currency(product.price) %></strong>
       </div>
         </div>
     <% end %>
