@@ -6,4 +6,5 @@
   data-description=<%= @product.name %>
   data-amount=<%= @product.price*100 %>
   data-locale="auto">
+  <%= hidden_field_tag(:product_id, @product.id) %>
 </script>

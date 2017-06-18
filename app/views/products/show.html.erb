@@ -41,9 +41,9 @@
 	  	</tr>
 	  	<tr>
 	  		<td><%= number_to_currency(@product.price) %></td>
-        <%= form_tag "/payments/create" do %>
-          <%= render partial: "shared/stripe_checkout_button" %>
-        <% end %>
+        <tr><%= form_tag "/payments/create" do %></td>
+          <tr><%= render partial: "shared/stripe_checkout_button" %></td>
+       <tr> <% end %></td>
 	  	</tr>
 	  </table>
 
