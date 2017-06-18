@@ -34,14 +34,19 @@
 	  	</tr>
 	  	<tr>
 	  		<td><div class="rated" data-score="<%= @product.average_rating %>"></div></td>
+	  		
 	  	</tr>
 	  	<tr>
 	  		<td><strong>Price:</strong></td>
 	  	</tr>
 	  	<tr>
 	  		<td><%= number_to_currency(@product.price) %></td>
+        <%= form_tag "/payments/create" do %>
+          <%= render partial: "shared/stripe_checkout_button" %>
+        <% end %>
 	  	</tr>
 	  </table>
+
 	</div><!-- /col-md-4 -->
 </div> <!--product-detail-->
 

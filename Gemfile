@@ -36,6 +36,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'cancancan', '~> 1.10'
 gem 'will_paginate'
 gem 'turbolinks', '~> 5'
+gem 'stripe'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
