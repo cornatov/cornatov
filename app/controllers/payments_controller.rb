@@ -13,6 +13,7 @@ class PaymentsController < ApplicationController
         receipt_email: @user.email
       )
     
+    
   if charge.paid
     order.create(product_id: @product.id, user_id: @user.id, total: @product.price, created_at: Time.now)
   end
