@@ -25,6 +25,7 @@ Rails.application.configure do
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = true
   config.assets.digest = true
+  # https://stackoverflow.com/questions/21359658/rails-4-vendor-asset-images-not-being-referenced-from-css-files-heroku-and-s3
 
   # `config.assets.precompile` and `config.assets.version` have moved to config/initializers/assets.rb
 
@@ -41,7 +42,7 @@ Rails.application.configure do
   # config.action_cable.allowed_request_origins = [ 'http://example.com', /http:\/\/example.*/ ]
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
-  # config.force_ssl = true
+  config.force_ssl = true
 
   # Use the lowest log level to ensure availability of diagnostic information
   # when problems arise.
@@ -53,10 +54,25 @@ Rails.application.configure do
   # Use a different cache store in production.
   # config.cache_store = :mem_cache_store
 
+  # Implement Memcached
+  config.cache_store =  :dalli_store,
+                        (ENV['MEMCACHIER_SERVERS'] || '').split(','),
+                        { username: ENV['MEMCACHIER_USERNAME'],
+                          password: ENV['MEMCACHIER_PASSWORD'],
+                          failover: true,
+                          socket_timeout: 1.5,
+                          socket_failure_delay: 0.2,
+                          down_retry_delay: 60 }
+
   # Use a real queuing backend for Active Job (and separate queues per environment)
   # config.active_job.queue_adapter     = :resque
-  # config.active_job.queue_name_prefix = "firstapp_#{Rails.env}"
+  # config.active_job.queue_name_prefix = "cfapp_#{Rails.env}"
   config.action_mailer.perform_caching = false
+
+  # Any dynamic links inside emails will generate the right URLs
+  config.action_mailer.default_url_options = { :host => 'https://bike-berlin-bmikol.herokuapp.com' }
+  # Any assets linked to inside emails will actually render properly
+  config.action_mailer.asset_host = 'https://bike-berlin-bmikol.herokuapp.com'
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
@@ -68,9 +84,6 @@ Rails.application.configure do
 
   # Send deprecation notices to registered listeners.
   config.active_support.deprecation = :notify
-  
-  if Rails.root.join('tmp/caching-dev.txt').exist?
-    config.action_controller.perform_caching = true
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
@@ -78,16 +91,6 @@ Rails.application.configure do
   # Use a different logger for distributed setups.
   # require 'syslog/logger'
   # config.logger = ActiveSupport::TaggedLogging.new(Syslog::Logger.new 'app-name')
-  
-  config.cache_store = :dalli_store,
-                    (ENV["MEMCACHIER_SERVERS"] || "").split(","),
-                    {:username => ENV["MEMCACHIER_USERNAME"],
-                     :password => ENV["MEMCACHIER_PASSWORD"],
-                     :failover => true,
-                     :socket_timeout => 1.5,
-                     :socket_failure_delay => 0.2,
-                     :down_retry_delay => 60
-                    }
 
   if ENV["RAILS_LOG_TO_STDOUT"].present?
     logger           = ActiveSupport::Logger.new(STDOUT)
