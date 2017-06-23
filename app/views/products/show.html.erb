@@ -9,7 +9,8 @@
   <div class="col-md-12 col-xs-12">
   
 <%= image_tag(@product.image_url, class: "img-responsive img-zoom", data: "zoom_image='#{@product.image_url}'") %>
- 
+
+
  <table>
 
 	  	<tr>
@@ -21,6 +22,7 @@
 	  	<tr>
 	  		<td align="center"><%= @product.description %></td>
 	  	</tr>
+	  	
 	  	<tr>
 	  		<td align="center"><% link_to "#{@product.image_url}", @product.image_url %></td>
 	  	</tr>
