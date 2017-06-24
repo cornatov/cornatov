@@ -18,6 +18,7 @@ Rails.application.routes.draw do
   
   post 'static_pages/thank_you'
   
+  mount ActionCable.server => '/cable'
   
   
   root 'static_pages#landing_page'

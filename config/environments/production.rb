@@ -3,7 +3,7 @@ Rails.application.configure do
 
   # Code is not reloaded between requests.
   config.cache_classes = true
-
+  config.app_generators.javascript_engine = :javascript
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
   # and those relying on copy on write to perform better.
@@ -100,4 +100,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+  config.web_socket_server_url = "wss://cornatoron.herokuapp.com/cable"
+config.action_cable.allowed_request_origins = ['https://cornatoron.herokuapp.com', 'http://cornatoron.herokuapp.com']
 end
+
