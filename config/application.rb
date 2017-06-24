@@ -1,5 +1,7 @@
 require_relative 'boot'
 
+config.cache_store = :redis_store, 'redis://localhost:6379/0/cache'
+
 require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems
