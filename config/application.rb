@@ -1,6 +1,6 @@
 require_relative 'boot'
 
-#config.cache_store = :redis_store, 'redis://localhost:6379/0/cache'
+config.cache_store = :redis_store, "redis://localhost:6379/0/cache", { expires_in: 90.minutes }
 
 require 'rails/all'
 
