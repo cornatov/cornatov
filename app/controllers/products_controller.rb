@@ -82,4 +82,6 @@ end
       params.require(:product).permit(:name, :description, :image_url, :colour, :price)
     end
     
-end
+ 
+
+
