@@ -1,6 +1,5 @@
 require_relative 'boot'
 
-config.cache_store = :redis_store, "redis://localhost:6379/0/cache", { expires_in: 90.minutes }
 
 require 'rails/all'
 
@@ -14,6 +13,8 @@ module Rails5Proj
     config.load_defaults 5.1
 
     # Settings in config/environments/* take precedence over those specified here.
+    config.cache_store = :redis_store, "redis://localhost:6379/0/cache", { expires_in: 90.minutes }
+
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
   end
