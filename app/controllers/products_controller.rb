@@ -19,8 +19,8 @@ class ProductsController < ApplicationController
   def show
     @comments = @product.comments.order("created_at DESC").paginate(:page => params[:page], :per_page => 3)
     @product.viewed!
-end  
-  end
+  end  
+
 
   # GET /products/new
   def new
@@ -81,7 +81,4 @@ end
     def product_params
       params.require(:product).permit(:name, :description, :image_url, :colour, :price)
     end
-    
- 
-
-
+end
