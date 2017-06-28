@@ -11,8 +11,10 @@ var refreshRating = function(){
     refreshRating();
  
   $('.img-zoom').elevateZoom({
-    zoomWindowWidth:300,
-    zoomWindowHeight:200
+  zoomType: "lens",
+  lensShape: "round",
+  lensSize: 250
+  
 
   });
 });
