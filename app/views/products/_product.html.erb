@@ -1,10 +1,25 @@
     <% cache product do %>
-    <div class="col-sm-6 col-md-3">
-      <%= image_tag(product.image_url, class: "img-responsive") %>
-      <h1><%= link_to product.name, product %></h1>
-      <p><%= product.description %></p>
+    <div class="col-sm-12 col-md-4">
+      <div class="card">
+      <div class="wrap">
+      <%= image_tag(product.image_url, class: "card-img-top") %>
+      </div> <!--Closes wrap-->
+      
+      <div class="card-block">
+      <div id="CardTitle_Share">
+      <h4 class="card-title"><%= link_to product.name, product %></h4>
+      </div> <!--closes card title-->
+      <p class="card-text"><%= product.description %></p>
+      </div> <!--closes card text-->
       <p><%= product.colour %></p>
+      <div class="card-footer">
       <strong><%= number_to_currency(product.price) %></strong>
+      </div> <!--closes card footer-->
       <p class="links"><%= link_to 'Edit', edit_product_path(product) %> | <%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></p>
-    </div><!-- /col -->
-    <% end %>
+  </div> <!--closes card-->
+  </div><!-- /col -->
+  <% end %>
+  
+
+
+  
