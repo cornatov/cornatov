@@ -73,6 +73,8 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { :host => 'https://cornatoron.herokuapp.com' }
   # Any assets linked to inside emails will actually render properly
   config.action_mailer.asset_host = 'https://cornatoron.herokuapp.com'
+  config.action_mailer.delivary_method = smtp
+  
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
@@ -102,5 +104,16 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
   config.web_socket_server_url = "wss://cornatoron.herokuapp.com/cable"
 config.action_cable.allowed_request_origins = ['https://cornatoron.herokuapp.com', 'http://cornatoron.herokuapp.com']
+
+
+
+  ActionMailer::Base.smtp_settings = {
+  :address => 'smtp.sendgrid.net',
+  :port => '587',
+  :authentication => :plain,
+  :user_name => ENV['SENDGRID_USERNAME'],
+  :password => ENV['SENDGRID_PASSWORD'],
+  :domain => 'heroku.com',
+  :enable_starttls_auto => true
 end
 

@@ -1,4 +1,5 @@
 class StaticPagesController < ApplicationController
+  
   def index
   end
 
@@ -10,7 +11,7 @@ def landing_page
  # render layout: "products"
 end
 
-end
+
 
 
 def thank_you 
@@ -19,6 +20,9 @@ def thank_you
   @message = params[:message] 
   UserMailer.contact_form(@email, @name, @message).deliver_now 
   end
+  
+  
+end  
 
 
 
