@@ -3,13 +3,49 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+.product-description,
+.reviews {
+  padding-left: 0;
+}
+
+@media (max-width: 991px) {
+  .product-description {
+    padding-top: 20px;
+  }
+}
+
+.admin-navigation {
+  margin-top: 20px;
+}
+
+.rated img {
+  padding: 0 0 10px 0;
+}
+
+
+.product-specs {
+  padding-right: 0 80%;
+}
+
+.product-container {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.product-container img {
+  padding: 20px 0;
+  max-width: 100%;
+}
+
+
+
+
+
 .productdisplay {
     width: 17%;
 }
 
-h1 {
-    text-align: center;
-}
+
 
 .product-table, .product-show {
     width: 90%;
@@ -37,23 +73,8 @@ h1 {
 	position: absolute;
 }
 
-.product_image {
-	align: center;
-}
 
-.product-detail {
-	align: center;
-}
 
-#comment-area {
-	width: 100%;
-	height: 150px;
-}
-
-p.comment-body {
-	margin-left: 0;
-	margin-top: 1em;
-}
 
 .create {
 	text-align: right;
@@ -79,9 +100,8 @@ p.comment-body {
 
 #products .card{
     width: 300px;
-    margin: 30px 15px 0px 15px;
-    height: 400px;
-    background-color: white;
+    height: 450px;
+    background-color: black;
     border: 1px solid rgb(228, 228, 228);
     position: relative;
     border-radius: 7px;
@@ -89,7 +109,7 @@ p.comment-body {
 }
 
 #products .card:hover {
-    border: 1px solid white;
+    border: 8px solid black;
     -webkit-box-shadow: 0px 10px 40px 3px rgba(224, 224, 224, 1);
     -moz-box-shadow: 0px 10px 40px 3px rgba(224, 224, 224, 1);
     box-shadow: 0px 10px 40px 3px rgba(224, 224, 224, 1);
@@ -102,8 +122,8 @@ p.comment-body {
     left: 0;
     object-fit: cover;
     overflow: hidden;
-    height: 170px;
-    width: 298px;
+    height: 70%;
+    width: 100%;
 }
 
 .wrap{
@@ -113,62 +133,66 @@ p.comment-body {
 
 .card-block {
     position: absolute;
-    top: 195px;
+    top: 300px;
     padding-top: 0;
     padding-bottom: 0;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     z-index: 1;
-    background-color: white;
+    background-color: black;
     width: 298px;
+    text-color: black;
 
 }
 
 .card-title {
-    font-size: 20px;
-    margin-bottom: 5px;
-    max-width: 225px;
+    margin-left: 5%;
     word-wrap: break-word;
+    text-color: black;
 }
 
 .card-text {
     max-width: 258px;
+    text-align: center;
     font-weight: 400;
     font-family: "proxima-nova", sans-serif;
     font-size: 15px;
     margin: 10px 0px;
+    text-color: black;
 }
 
 .card-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    align-items: center;
-    padding: 12px 15px;
-    border: 0;
-    background-color: white;
-    z-index: 3;
-}
+    max-width: 258px;
+    text-align: center;
+    font-weight: 400;
+    font-family: "proxima-nova", sans-serif;
+    font-size: 15px;
+  
+    padding-left: 10%;
+    text-color: black;
+    }
 
 
 
 #CardTitle_Share {
+text-align: center;
     display: flex;
     justify-content: space-between;
+    text-color: black;
 }
 
 #products.container, {
     display: flex;
-    justify-content: center;
     margin: 0 auto;
-    width: 1320px;
     top: 119px;
     padding-bottom: 70px;
+    text-color: black;
 }
 
 .card-text {
-
+text-align: center;
     overflow: hidden;
-    margin-bottom: 0;
+    margin-bottom: 20;
+    text-color: black;
     z-index: 1;
 }
 
@@ -227,4 +251,13 @@ p.comment-body {
     #products.container{
         width: 330px;
     }
+}
+
+@media (max-width: 991px) {
+  .product-specs {
+    padding: 0;
+  }
+  .cart-button {
+    margin-bottom: 20px;
+  }
 }

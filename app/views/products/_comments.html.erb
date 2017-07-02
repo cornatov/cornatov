@@ -2,7 +2,18 @@
 	<h3><%= @comment_count %> Customer Reviews</h3>
 	<% if @product.comments.exists? %>
 		<% @comments.each do |comment| %>
-     <%= render partial: 'comments/comment', locals: {comment: comment} %>
+	      <div class="row">
+	        <div class="col-sm-12">
+        <hr>
+        <p><%= comment.user.first_name %> <small><em><%= "#{time_ago_in_words(comment.created_at)} ago" %></em></small></p>
+        <div class="rated stars" data-score="<%= comment.rating %>"></div>
+
+        <p><%= comment.body %></p>
+      </div>
+      </div>
+		
+		
+		
     <% end %>
   <% else %>
       <p>There are no reviews yet.<% if signed_in? %> Add yours above now!<% end %></p>

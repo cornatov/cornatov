@@ -3,6 +3,7 @@
   <head>
     <title>Rails5Proj</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,10 +24,10 @@
       <a class="navbar-brand" href ="#">Cornato Vella</a>
     </div>
     <ul class="nav navbar-nav">
-      <li><%= link_to "Home", static_pages_index_path%></li>>
+      <li><%= link_to "Home", static_pages_index_path%></li>
       <li><%= link_to "About", static_pages_about_path%></li>
       <li><%= link_to "Contact", static_pages_contact_path%></li>
-      <li><%= link_to 'Products', "/products" %></li>
+      <li><%= link_to "Products", "/products" %></li>
     </ul>
    <ul class="nav pull-right">
   <li>
@@ -58,6 +59,7 @@
   </div>
 </nav>
     <%= yield %>
+    
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Bootstrap core JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>

@@ -1,5 +1,8 @@
+   
+     <div class="col-sm-12, col-lg-3">
+    <div class="container" id=products>
+      <div class="row">
     <% cache product do %>
-    <div class="col-sm-12 col-md-4">
       <div class="card">
       <div class="wrap">
       <%= image_tag(product.image_url, class: "card-img-top") %>
@@ -10,15 +13,24 @@
       <h4 class="card-title"><%= link_to product.name, product %></h4>
       </div> <!--closes card title-->
       <p class="card-text"><%= product.description %></p>
-      </div> <!--closes card text-->
-      <p><%= product.colour %></p>
+      
       <div class="card-footer">
       <strong><%= number_to_currency(product.price) %></strong>
+      <p><%= product.colour %></p>
       </div> <!--closes card footer-->
+      </div> <!--closes card text-->
       <p class="links"><%= link_to 'Edit', edit_product_path(product) %> | <%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></p>
   </div> <!--closes card-->
-  </div><!-- /col -->
   <% end %>
+  </div>
+   </div>
+    </div>
+  
+  
+  
+  
+  
+
   
 
 

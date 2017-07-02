@@ -4,9 +4,23 @@
 $font-stack: Helvetica, sans-serif;
 $primary-color: #333;
 
-h1, h2, p {
+
+
+h1, h2, .navbar-brand, ul {
     text-align: center;
-    color:blue;
+    color:#c0362c;
+    font-family: 'Shrikhand', cursive;
+    justify-content: center;
+    align-items: center;
+}
+
+div.c-wrapper{
+  width: 100%; 
+  margin: auto;
+}
+
+p {
+ color:gray;
 }
 
 html {
