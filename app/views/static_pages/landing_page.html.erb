@@ -1,14 +1,19 @@
-<h2>Featured Product:</h2>
+<h1>Featured Product:</h1>
 
 
 
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
-    <% @products.each_with_index do |product, index| %>
-    <li data-target="#carousel-example-generic" data-slide-to="<%= index %>"<%= raw ' class="active"' if index == 0 %>></li>
+    <% @products.each do |product| %>
+      <li data-target="#carousel-example-generic" data-slide-to="<%= product.id - 1 %>" class="<%= " active" if product == @products.first %>"></li>
   <% end %>
   </ol>
+  
+  
+  
+  
+  
   
   
 
@@ -16,20 +21,25 @@
   <div class="carousel-inner" role="listbox">
     <% @products.each do |product| %>
     <div class="item<%= " active" if product == @products.first %>">
-      <center><%= image_tag(product.image_url) %></center>
+        <%= link_to image_tag(product.image_url), product %>
       <div class="carousel-caption">
         <%= product.name %>
-        <p><%= product.description %></p>
-        <p><%= product.colour %></p>
-        <strong>$ <%= number_to_currency(product.price) %></strong>
+        
+        <h1><strong>On Sale for:  <%= product.price %></strong></h1>
       </div>
         </div>
     <% end %>
   </div>
   
  
-
  
+
+
+
+
+
+
+
    <!-- Controls -->
   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
