@@ -13,16 +13,16 @@ Rails.application.routes.draw do
   get 'static_pages/about'
 
   get 'static_pages/contact'
-
-  get 'static_pages/index'
+  
+  get 'static_pages/landing_page'
   
   post 'static_pages/thank_you'
   
   mount ActionCable.server => '/cable'
   
   
-  root 'static_pages#landing_page'
-  get 'static_pages/landing_page'
+  root 'static_pages#index'
+  get 'static_pages/index'
   #get '/products/:id', to: 'products#show'
   
 

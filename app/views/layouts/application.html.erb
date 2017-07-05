@@ -20,19 +20,18 @@
     <p id="alert" class="alert alert-info"><%= alert %></p>
 <% end %>
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #ffff66;">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href ="#">Cornato Vella</a>
     </div>
-    <ul class="nav navbar-nav">
+    <ul class="nav navbar-nav pull-left">
       <li><%= link_to "Home", static_pages_index_path%></li>
       <li><%= link_to "About", static_pages_about_path%></li>
       <li><%= link_to "Contact", static_pages_contact_path%></li>
-      <li><%= link_to "Products", "/products" %></li>
+      <li><%= link_to "Projects", "/products" %></li>
     </ul>
-   <ul class="nav pull-right">
-  <li>
+ 
     
     
   <div class="navbar-form navbar-right">
@@ -49,7 +48,7 @@
 
         
         
-<%= form_tag("/products", method: "get", class:"navbar-form navbar-left") do %> 
+<%= form_tag("/products", method: "get", class:"navbar-form navbar-right") do %> 
   <div class="form-group">
     <%= label_tag(:q, "Search for:", class:"hidden") %>
     <%= text_field_tag(:q, "", type:"text", class:"form-control", placeholder:"Search") %>
@@ -60,6 +59,9 @@
         
   </div>
 </nav>
+
+
+
     <%= yield %>
     
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -74,7 +76,7 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => 'reload' %>
     <%= javascript_include_tag 'jquery.raty.js', "data-turbolinks-track" => false %>
 
-    <div class="footer">
+    <div class="footer" style="background-color: #ffff66;">
       <div class="container">
               <a href='#'><i class="fa fa-twitch fa-3x fa-fw"></i></a>
               <a href='#'><i class="fa fa-facebook fa-3x fa-fw"></i></a>

@@ -4,6 +4,16 @@
 $font-stack: Helvetica, sans-serif;
 $primary-color: #333;
 
+#splashscreen-navbar {
+  display: none !important;
+}
+
+
+.navbar {
+  
+  border: 0;
+}
+
 
 
 /////carousel page/////////////////////////
@@ -15,8 +25,9 @@ $primary-color: #333;
 .carousel-caption {
 	font-family: 'Shrikhand', cursive;
 	color: #c0362c;
-	font-size: 70px;
-	line-height: 60px;
+	font-size: 4.5em;
+	padding-top: 8%;
+	line-height: 1em;
 	letter-spacing: -2px;
 	font-kerning: normal !important;
 	text-rendering: optimizeLegibility;
@@ -73,7 +84,7 @@ $primary-color: #333;
 
 h1, h2, .navbar-brand, ul {
     text-align: center;
-    color:#c0362c;
+    color:#c01722;
     font-family: 'Shrikhand', cursive;
     justify-content: center;
     align-items: center;
@@ -160,3 +171,35 @@ body {
     transition: 1s;
     -webkit-transition: 1s;
 }
+
+/********About**************/
+
+.header h1 {
+    text-align: center;
+}
+.titleabout {
+    text-align: center;
+    padding-top: 15%;
+}
+.skill {
+    padding-left: 25%;
+    text-transform: uppercase;
+}
+
+.myskill {
+    margin-left: 50%;
+}
+#skill-list {
+    margin-left: 22em;
+}
+.intro {
+    margin-left: 40%;
+}
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
