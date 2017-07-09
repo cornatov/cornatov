@@ -21,3 +21,21 @@ $(document).on('turbolinks:load', function() {
 
     $('.img-zoom').elevateZoom();
 });
+
+
+var jumboHeight = $('.jumbotron').outerHeight();
+function parallax(){
+    var scrolled = $(window).scrollTop();
+    $('.bg').css('height', (jumboHeight-scrolled) + 'px');
+}
+
+$(window).scroll(function(e){
+    parallax();
+});
+
+
+
+
+// mouse funtion
+
+

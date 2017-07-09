@@ -262,3 +262,31 @@ text-align: center;
     margin-bottom: 20px;
   }
 }
+
+
+
+/*images in work*/
+.work-img {
+    display: block;
+    margin: auto;
+    max-width: 430px;
+    height: 170px;
+    position: relative;
+}
+
+.info {
+    position: absolute;
+    top: 15%;
+    left: 22%;
+    color: #fff;
+    font-family: Futura;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.5em;
+    line-height: 1.6;
+    display: none;
+}
+
+.prok-title {
+    font-weight: 100;
+}

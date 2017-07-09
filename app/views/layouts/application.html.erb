@@ -4,8 +4,8 @@
     <title>Rails5Proj</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"> </script>
-    
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,12 +20,12 @@
     <p id="alert" class="alert alert-info"><%= alert %></p>
 <% end %>
 
-<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #ffff66;">
-  <div class="container-fluid">
+<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #778899;">
+  <div class="container-fluid" >
     <div class="navbar-header">
       <a class="navbar-brand" href ="#">Cornato Vella</a>
     </div>
-    <ul class="nav navbar-nav pull-left">
+    <ul class="nav navbar-nav pull-left" style="color:black;">
       <li><%= link_to "Home", static_pages_index_path%></li>
       <li><%= link_to "About", static_pages_about_path%></li>
       <li><%= link_to "Contact", static_pages_contact_path%></li>
@@ -76,7 +76,7 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => 'reload' %>
     <%= javascript_include_tag 'jquery.raty.js', "data-turbolinks-track" => false %>
 
-    <div class="footer" style="background-color: #ffff66;">
+    <div class="footer" style="background-color: #778899;color:black;">
       <div class="container">
               <a href='#'><i class="fa fa-twitch fa-3x fa-fw"></i></a>
               <a href='#'><i class="fa fa-facebook fa-3x fa-fw"></i></a>

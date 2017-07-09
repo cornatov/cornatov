@@ -4,6 +4,11 @@
 $font-stack: Helvetica, sans-serif;
 $primary-color: #333;
 
+
+
+
+
+
 #splashscreen-navbar {
   display: none !important;
 }
@@ -15,12 +20,10 @@ $primary-color: #333;
 }
 
 
+ body {
+    background-color: #778899;
+} 
 
-/////carousel page/////////////////////////
-
-.carousel-inner {
-	background-color: #000;
-}
 
 .carousel-caption {
 	font-family: 'Shrikhand', cursive;
@@ -33,7 +36,6 @@ $primary-color: #333;
 	text-rendering: optimizeLegibility;
 	text-align: left;
 	text-transform: uppercase;
-	
 	left: 50%;
 	top: 5%;
 	text-shadow: none;
@@ -80,15 +82,23 @@ $primary-color: #333;
 
 
 /////carousel page/////////////////////////
+/////nav////////////////////////
 
 
-h1, h2, .navbar-brand, ul {
+.navbar-brand, ul {
     text-align: center;
-    color:#c01722;
+    color: black;
     font-family: 'Shrikhand', cursive;
     justify-content: center;
     align-items: center;
 }
+
+
+h1, h2, {
+    font-family: black 'Abril Fatface', cursive;
+    
+}
+
 
 div.c-wrapper{
   width: 100%; 
@@ -96,7 +106,7 @@ div.c-wrapper{
 }
 
 p {
- color:gray;
+ color: black;
 }
 
 html {
@@ -104,15 +114,7 @@ html {
   min-height: 100%;
 }
 
-body {
-  overflow-x: hidden;
-  margin-bottom: 150px;
-  padding-top: 15%;
-  font: 100% $font-stack;
-  color: $primary-color;
-  background-color: #ffff66;
-  text-align: center;
-}
+
 
 .footer {
   position: absolute;
@@ -120,6 +122,14 @@ body {
   width: 100%;
   height: 80px;
   background-color: #111;
+}
+
+body {
+  overflow-x: hidden;
+  margin-bottom: 150px;
+  padding-top: 15%;
+  font: 100% $font-stack;
+  text-align: center;
 }
 
 .container{
@@ -172,34 +182,23 @@ body {
     -webkit-transition: 1s;
 }
 
-/********About**************/
 
-.header h1 {
-    text-align: center;
-}
-.titleabout {
-    text-align: center;
-    padding-top: 15%;
-}
-.skill {
-    padding-left: 25%;
-    text-transform: uppercase;
-}
 
-.myskill {
-    margin-left: 50%;
-}
-#skill-list {
-    margin-left: 22em;
-}
-.intro {
-    margin-left: 40%;
-}
+
 
 @font-face {
     font-family: 'Glyphicons Halflings';
-
     src: url('../fonts/glyphicons-halflings-regular.eot');
     src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
+
+
+
+.header {
+  margin-top: 15%;
+  text-align: center;
+  
+}
+
+
 
