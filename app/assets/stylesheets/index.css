@@ -32,9 +32,7 @@
 }
 
 
- .navbar #navigation-top {
-   display: none !important;
- }
+
 
 /*slash page*/
 
@@ -42,7 +40,7 @@
   color: lime;
   font-family: "Courier";
   font-size: 2em;
-
+  width: 100%;
   white-space: nowrap;
   overflow: hidden;
   -webkit-animation: type 5s steps(40, end);
