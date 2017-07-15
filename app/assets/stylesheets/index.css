@@ -15,7 +15,7 @@
 .jumbotron {
   height: 350px;
   width: 100%;
-  color: white;
+  color: black;
   text-shadow: #444 0 1px 1px;
   background:transparent;
 
@@ -354,28 +354,7 @@ span {
   transform: translate(-50%, -50%);
 }
 
-.module6 {
-  background: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),
-    url("pythonlogo.jpg");
-  background-size: cover;
-  border-radius: 25px;
-  width: 300px;
-  height: 200px;
-  margin: 10px 0 0 10px;
-  position: relative;
-  float: left;
-  font-weight: 900;
-  color: white;
-  text-transform: uppercase;
-  top: 50%;
-  left: 50%;
-  font-size: 2rem;
-  transform: translate(-50%, -50%);
-}
+
 
 
 

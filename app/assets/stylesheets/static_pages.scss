@@ -5,7 +5,15 @@ $font-stack: Helvetica, sans-serif;
 $primary-color: #333;
 
 
+/////contact page////////
 
+.contactpage {
+    padding-bottom: 90%;
+}
+
+
+
+////contact page/////
 
 
 
@@ -197,8 +205,65 @@ body {
 .header {
   margin-top: 15%;
   text-align: center;
+  color: black;
+  font-family: black 'Abril Fatface', cursive;
   
 }
 
 
+
+////screen adjustment////////
+
+@media screen and (max-width: 1550px) {
+    #stories.container, #categories.container, #mystories.container, .cat {
+        width: 990px;
+    }
+}
+
+@media screen and (max-width: 1016px) {
+    #stories.container, #categories.container, #mystories.container, .cat {
+        width: 660px;
+    }
+}
+
+@media screen and (max-width: 686px) {
+    #stories.container, #categories.container, #mystories.container, .cat {
+        width: 330px;
+    }
+
+}
+
+
+@media screen and (max-width: 1550px) {
+    #products.container {
+        width: 990px;
+    }
+}
+
+@media screen and (max-width: 1016px) {
+    #products.container {
+        width: 660px;
+    }
+
+}
+
+@media screen and (max-width: 686px) {
+    #products.container{
+        width: 330px;
+    }
+}
+
+@media (max-width: 991px) {
+  .product-specs {
+    padding: 0;
+  }
+  .cart-button {
+    margin-bottom: 20px;
+  }
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
 
