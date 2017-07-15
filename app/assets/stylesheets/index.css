@@ -42,7 +42,7 @@
   color: lime;
   font-family: "Courier";
   font-size: 2em;
-  width: 50em;
+
   white-space: nowrap;
   overflow: hidden;
   -webkit-animation: type 5s steps(40, end);
