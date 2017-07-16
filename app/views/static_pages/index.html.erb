@@ -7,16 +7,13 @@
 
 <body>
 
-    
-    
-<div class="bg"></div>
-<div class="container">
-
 <div class="jumbotron">
 
+<div class="container">
+
 
     
- <div id="splashscreen">
+<div class="bg"></div>
 
 
 
@@ -26,15 +23,11 @@
   <p>I am a Full Stack Developer & Mechancial Engineer</p>
   <p>who currently works for the Aerospace industry.</p>
   <p>Please come inside.</p></center></strong>
+  <a href="#home"><i class="fa fa-arrow-circle-o-down" style="font-size:40px;color:#7CFC00;"></i></a>  
 </div>
 
-<a href="#home"><i class="fa fa-arrow-circle-o-down" style="font-size:40px;color:#7CFC00;"></i></a>
 
 
-
-
-</div>
-<!--jumbotron-->
 
 
 </div> 
@@ -42,14 +35,22 @@
 
 
 
-<div class="header" id="home">
-<h1><br><br>What I do</h1>
-</div> <!--headersofsite-->
+</div>
+<!--jumbotron-->
+
+
+
 
 
 <div class="row" style="color:black;">
+
+<div class="col-md-12 col-xs-12" id="about">
+    
+  <h1><br><br>What I do</h1> 
+</div>
+
        
-      <div class="col-md-4 col-xs-12">
+<div class="col-md-4 col-xs-12" id="expertise">
 
        <i class="fa fa-cogs" style="font-size:48px;color:gold;" aria-hidden="true"></i>
         <h2>Mechanical Engineer</h2>
@@ -86,18 +87,18 @@
 
 
 
-<div class="row" style="background-color: #DCDCDC">
+<div class="row">
     
 
-<div class="col-md-4">
-    <a href="http://grow.buffalo.edu/"><div class="module1 top">
+<div class="col-md-4 col-xs-12">
+    <a href="http://grow.buffalo.edu/"><div class="module1 top" data-toggle="tooltip" data-placement="bottom" title="Selected as 1 of 20 schools to participate in a DOE national sustainable house competition">
     <h1>University at Buffalo's Solar Decathlon</h1>
     </div></a>
 </div> <!--col-->
 
 
-<div class="col-md-4">
-    <a href="https://www.buffalo.edu/ubnow/campus/campus-host-page.host.html/content/shared/university/news/ub-reporter-articles/stories/2015/05/microgravity.detail.html"><div class="module2 top">
+<div class="col-md-4 col-xs-12">
+    <a href="https://www.buffalo.edu/ubnow/campus/campus-host-page.host.html/content/shared/university/news/ub-reporter-articles/stories/2015/05/microgravity.detail.html"><div class="module2 top" data-toggle="tooltip" data-placement="bottom" title="Design and build a specimen grabber for astronauts that utilizes singlehanded operations">
     <h1>NASA Micro-G Next</h1>
     </div></a>
 </div> <!--col-->
@@ -107,28 +108,11 @@
 
 
 <div class="col-md-4 col-xs-12">
-  <a href="https://ubnl.space/"><div class="module3 top">
+  <a href="https://ubnl.space/"><div class="module3 top" data-toggle="tooltip" data-placement="bottom" title="To design and build a small satellite ‘GLADOS’ to track space debri">
   <h1>University at Buffalo's NANOSAT</h1>
   </div></a>
 </div> <!--col-->
 
-<!--work descriptions-->
-
-<div class="col-md-4">
-<p><br>Selected as 1 of 20 schools to participate in a DOE national sustainable house competition</p>
-
-</div> <!--col-->
-
-
-<div class="col-md-4">
-<p><br>Design and build a specimen grabber for astronauts that utilizes singlehanded operations</p>
-
-</div> <!--col-->
-
-
-<div class="col-md-4">
-<p><br>To design and build a small satellite ‘GLADOS’ to track space debris</p>
-</div> <!--col-->
 
 </div>    
 <!--row-->
@@ -209,9 +193,15 @@
 
 
 
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Bootstrap core JS -->
 
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
+</script>
 
 </body>
 

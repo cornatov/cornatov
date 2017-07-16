@@ -243,9 +243,25 @@ body {
 
 }
 
-@media screen and (max-width: 686px) {
-    #products.container{
-        width: 330px;
+@media screen and (max-width: 500px) {
+      .navbar{
+        display:none;
+    }
+    
+    .css-typing {
+        font-size: .5em;
+    }
+    
+    #about {
+        padding-top: 60%;
+    }
+    
+    #expertise {
+        padding-top: 15%;
+    }
+    
+    .footer {
+        padding-right: 20%;
     }
 }
 

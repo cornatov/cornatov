@@ -20,15 +20,13 @@ var refreshRating = function(){
 });
 
 
-////////////splash page/////
- $('.enter_link').click(function() { 
-        $(this).parent().fadeOut(500);
- });
+
+
+
+///tooltip
 
 
 
 
-
- 
  
  
